@@ -1,0 +1,15 @@
+.proyectoacacia{
+    align-items: center;
+    justify-content: center;
+ 
+  }
+  .proyectitle{
+    font-size: 10rem;
+    text-align: center;
+  }
+  .acaciaimage{
+    margin-left: 20%;
+    align-self: center;
+  margin-bottom: 100px;
+
+  }

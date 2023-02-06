@@ -1,0 +1,166 @@
+.navbar {
+  width: 100%;
+    height: 100px;
+    background-color: #96a077;
+    display: flex;
+    flex-direction: row;
+    padding: 150px;
+ 
+ 
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+}
+
+.navbar .leftSide img {
+  width: 300px;
+}
+
+.navbar .rightSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+.navbar #open img {
+  display: none;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open a {
+  width: 50px;
+  margin: 5px;
+}
+#icon{
+  font-size: 2.5rem;
+  letter-spacing: 0.15em;
+}
+.navicons{
+  background-color: #79835b;
+  padding: 100px;
+}
+#icon:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: white;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  width: 0;
+  position: relative;
+  margin-top: 10px;
+}
+#icon:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+#iconopen:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: white;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  width: 0;
+  position: relative;
+}
+#iconopen:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+a.active{
+  background: red;
+ 
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar{
+    padding: 0px;
+  }
+  .navbar .leftSide img {
+    width: 70px;
+  }
+  .navbar .rightSide a {
+    width: 70px;
+  }
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+  .navbar .rightSide {
+    gap: 0rem;
+  }
+  #icon{
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .navbar .rightSide button {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+}

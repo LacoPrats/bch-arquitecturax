@@ -1,0 +1,21 @@
+.ItemDetail{
+text-align: center;
+margin-top: 200px;
+}
+
+.detailinfo h1{
+font-size: 8rem;
+text-decoration: underline  #96a077;; 
+gap: 30px;
+}
+.detailinfo h2{
+    font-size: 4rem;
+ margin-top: 50px;
+    }
+
+.dimag{
+    width: 800px;
+    height: 800px;
+    margin: 5rem;
+    align-items: center;
+}
