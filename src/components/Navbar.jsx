@@ -4,13 +4,12 @@ import { Link } from 'react-router-dom'
 import{IoMdReorder} from 'react-icons/io'
 import './navbar.css'
 import { useState } from 'react'
-
-
+import { NavLink } from 'react-router-dom'
+import{ImCross}from 'react-icons/im'
   
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
-  const[activeNav, setActiveNav]= useState('#')
 
   const toggleNavbar = () => {
     setOpenLinks(!openLinks);
@@ -19,22 +18,23 @@ function Navbar() {
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
       <Link to='/'>  <img src={LOGO} /></Link>
-        <div className="hiddenLinks">
-          <Link to="/"className='iconopen'> Home </Link>
-          <Link to="/estudio"className='iconopen'> Estudio </Link>
-          <Link to="/proyectos"className='iconopen'> Proyectos </Link>
-          <Link to="/contact" className='iconopen'> Contacto </Link>
-        </div>
+        <nav className="hiddenLinks">
+          <NavLink to="/"className='iconopen'> Home </NavLink>
+          <NavLink to="/estudio"className='iconopen'> Estudio </NavLink>
+          <NavLink to="/proyectos"className='iconopen'> Proyectos </NavLink>
+          <NavLink to="/contact" className='iconopen'> Contacto </NavLink>
+          <button  onClick={toggleNavbar}><ImCross/></button>
+        </nav>
       </div>
-      <div className="rightSide">
-        <Link to="/" id='icon'onClick={()=>setActiveNav('#')} className={activeNav == '#' ? 'active' :''}>Home </Link>
-        <Link to="/estudio"id='icon'onClick={()=>setActiveNav('#')} className={activeNav == '#' ? 'active' :''}> Estudio </Link>
-        <Link to="/proyectos"id='icon'onClick={()=>setActiveNav('#')} className={activeNav == '#' ? 'active' :''}> Proyectos </Link>
-        <Link to="/Contact"id='icon'onClick={()=>setActiveNav('#')} className={activeNav == '#' ? 'active' :''}> Contacto </Link>
-        <button onClick={toggleNavbar}>
+      <nav className="rightSide">
+        <NavLink to="/" id='icon'>Home </NavLink>
+        <NavLink to="/estudio"id='icon'> Estudio </NavLink>
+        <NavLink to="/proyectos"id='icon'> Proyectos </NavLink>
+        <NavLink to="/Contact"id='icon'> Contacto </NavLink>
+        <button className='btn' onClick={toggleNavbar}>
           <IoMdReorder />
         </button>
-      </div>
+      </nav>
     </div>
   );
 }
