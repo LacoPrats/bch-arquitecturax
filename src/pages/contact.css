@@ -21,11 +21,8 @@
   }
   
   .contact .rightSide h1 {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-weight: 10;
-    font-size: 300px;
-    margin-left: 30px;
+    font-size: 3rem;
+    margin-left: 20px;
   }
   
   form {
@@ -33,31 +30,31 @@
     flex-direction: column;
     width: auto;
     height: auto;
-    padding: 30px;
+    padding: 10px;
   }
   
   form input {
-    height: 200px;
-    width: 80%;
-    border: none;
-    border-bottom: 1px solid #121619;
-    color: black;
-  }
-  .textarea{
-    height: 500px;
-  }
-  
-  form textarea {
-    margin-top: 15px;
     height: 50px;
     width: 80%;
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
   }
+  .textarea{
+    height: 100px;
+  }
+  
+  form textarea {
+    margin-top: 15px;
+    height: 100px;
+    width: 20%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
   input::placeholder,
   textarea::placeholder {
-    font-size: 3rem;
+    font-size: 1rem;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -68,17 +65,17 @@
   
   form label {
     margin-top: 15px;
-    font-size: 5rem;
+    font-size: 1rem;
     color: grey;
   }
   
   form button {
     margin-top: 40px;
-    width: 400px;
-    height: 240px;
+    width: 200px;
+    height: 100px;
     border: none;
     background-color: #121619;
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 1rem;
     cursor: pointer;
   }

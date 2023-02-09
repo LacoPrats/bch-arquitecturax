@@ -15,7 +15,7 @@ const Home = () => {
     </div>
     <div className='gogo2'>
       <h1 className="title animate__animated animate__fadeInLeftBig " >Construimos tú sueño</h1>
-      <h3  className="subtitle animate__animated animate__fadeInTopRight" >Que estas esperando?</h3>
+      <h3  className="subtitle2 animate__animated animate__fadeInTopRight" >Que estas esperando?</h3>
     </div>
     <div className='Zone'>\
     <hr className='hrhome' />

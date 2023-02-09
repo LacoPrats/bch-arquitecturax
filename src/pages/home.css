@@ -5,8 +5,8 @@
   }
   .gogo{
     background-image: url("../../src/assets/imags/homesec1.png");
- padding: 500px;
- margin: 20px;
+ padding: 100px;
+ margin: 5px;
  background-size: 100%;
  display: grid;
  grid-template-columns: repeat(1, 1fr);
@@ -18,8 +18,8 @@
   }
   .gogo3{
     background-image: url("../../src/assets/imags/homesec2.jpg");
- padding: 500px;
- margin: 20px;
+ padding: 100px;
+ margin: 5px;
  background-size: 100%;
  display: grid;
  grid-template-columns: repeat(1, 1fr);
@@ -31,8 +31,8 @@
   }
   .gogo4{
     background-image: url("../../src/assets/imags/homesec3.jpg");
- padding: 500px;
- margin: 20px;
+ padding: 100px;
+ margin: 5px;
  background-size: 100%;
  background-repeat: no-repeat;
   }
@@ -47,45 +47,43 @@
   }
 
   .gogo2{
- padding: 500px;
+ padding: 100px;
  justify-content: center;
  align-items: flex-start;
  align-content: flex-start;
  width: 100%;
- height: 10vh;
- gap: 10rem;
+ height: 1vh;
+ gap: 5rem;
  text-align: center;
   }
 
   .title{
-    font-size: 15rem;
+    font-size: 5rem;
     opacity: 1;
 
   }
  
   .subtitle{
-    font-size: 5rem;
+    font-size: 2rem;
     opacity: 1;
-    margin-left: 23rem;
-    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-top: 1rem;
+  }
+  .subtitle2{
+    font-size: 2rem;
+    opacity: 1;
+  text-align: center;
   }
   .Zone{
-    padding: 20rem;
+    padding: 10rem;
 
   }
   .tic{
-    font-size: 15rem;
-    margin-top: 2rem;
-    margin-left: 5rem;
+    font-size: 5rem;
+    margin-top: 0.7rem;
+    margin-left: 6rem;
   }
-  .homeLogo{
-    width: 10%;
-   opacity: 100%;
-   padding: 30px;
-   background-color: aliceblue;
-   opacity: 70%;
-  }
-  
+ 
   .headerContainer button {
     color: black;
     border: none;

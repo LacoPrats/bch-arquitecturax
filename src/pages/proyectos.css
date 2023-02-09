@@ -22,35 +22,32 @@ text-align: center;
 .portfolio__container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  margin: 6rem;
+  margin: 1rem;
   align-items: center;
 
 }
 
 .Proyectimag{
-  width: 1600px;
- height: 1600px;
+  width: 500px;
+ height: 500px;
   object-fit: cover;
   align-items: center;
   position: relative;
 }
 .ProyectName{
- font-size: 5rem;
+ font-size: 2rem;
  text-align: center;
 color: white;
 position: relative;
-bottom: 100px;
-left: 100px;
+bottom: 10px;
+left: 10px;
 text-decoration: underline white;
-padding-left: 200px;
-padding-right: 200px;
-padding-bottom: 100px;
 width: auto;
 white-space: nowrap;
 display:inline-block;
 }
 .portfolio__item{
-  margin: 9rem;
+  margin: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -75,9 +72,9 @@ opacity: 0.8;
 
 .proyecytext{
 position: absolute;
-top: 10px;
-padding-top: 1350px;
-padding-right: 1000px;
+top: 2px;
+padding-top: 450px;
+padding-right: 100px;
 opacity: 0;
 width: 100%;
 
