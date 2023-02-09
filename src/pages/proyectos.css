@@ -22,14 +22,12 @@ text-align: center;
 .portfolio__container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  margin: 1rem;
-  align-items: center;
-
+text-align: center;
+margin: 0.2rem;
 }
-
 .Proyectimag{
-  width: 500px;
- height: 500px;
+  width: 450px;
+ height: 450px;
   object-fit: cover;
   align-items: center;
   position: relative;
@@ -39,7 +37,7 @@ text-align: center;
  text-align: center;
 color: white;
 position: relative;
-bottom: 10px;
+bottom: 50px;
 left: 10px;
 text-decoration: underline white;
 width: auto;
@@ -47,25 +45,16 @@ white-space: nowrap;
 display:inline-block;
 }
 .portfolio__item{
-  margin: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
     position: relative;
+    margin: 1rem;
 }
 .portfolio__item:hover{
 opacity: 0.8;
 }
-.portfolio__item__imag{
-  border-radius: 1,5rem;
-  overflow: hidden;
-  width: 800px;
-  height: 800px
-  
-}
-.portfolio__item h3{
-  margin: 1.2rem 0 2rem;
-}
+
 .Proyect{
   align-content: center;
 }
