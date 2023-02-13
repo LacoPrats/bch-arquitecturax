@@ -20,7 +20,7 @@ function Contact() {
           <input name="email" placeholder="Escribe su email..." type="email" />
           <label htmlFor="message">Mensaje</label>
           <textarea className="textarea"
-            rows="20"
+            rows="100"
             placeholder="Escribe su mensaje..."
             name="message"
             required

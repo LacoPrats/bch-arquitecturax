@@ -14,10 +14,10 @@ const Itemdetail = () => {
       <h2> Ubicación:{datap?.ubicación}</h2>
         </div>
       <div className="detailimag">
-      <img style={{width:"1500px", height:"auto"}} src={datap?.image} className='dimag' />
-      <img style={{width:"1500px", height:"auto"}} src={datap?.image2} className='dimag'  />
-      <img style={{width:"1500px", height:"auto"}} src={datap?.image3}className='dimag' />
-      <img style={{width:"1500px", height:"auto"}} src={datap?.image4} className='dimag'  />
+      <img style={{width:"1200px", height:"auto"}} src={datap?.image} className='dimag' />
+      <img style={{width:"1200px", height:"auto"}} src={datap?.image2} className='dimag'  />
+      <img style={{width:"1200px", height:"auto"}} src={datap?.image3}className='dimag' />
+      <img style={{width:"1200px", height:"auto"}} src={datap?.image4} className='dimag'  />
     </div>
       </div>
       )    

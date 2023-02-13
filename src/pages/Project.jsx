@@ -8,8 +8,8 @@ function Project() {
   return (
     <div className="projecttodo">
       <div className='home3'>
-        <div className='logoestudio'>
-          <h1>Proyectos</h1>
+        <div>
+          <h1 className='proyecthero animate__animated animate__fadeInLeftBig'>Proyectos</h1>
         </div>
       </div>
       <div className="container portfolio__container">

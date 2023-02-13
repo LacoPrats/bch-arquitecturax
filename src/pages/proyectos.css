@@ -1,5 +1,5 @@
 .home3 {
-  background-image: url("../../src/assets/imags/Alissos.jpg");
+  background-image: url("../../src/assets/imags/proyectoshome.png");
   width: 100%;
   height: 50vh;
   display: flex;
@@ -12,7 +12,7 @@
   text-align: center;
   
 }
-.projecttod{
+.projectodo{
 text-align: center;
 }
 .menuTitle{
@@ -36,12 +36,16 @@ margin: 0.2rem;
  font-size: 2rem;
 color: white;
 position: relative;
-bottom: 50px;
+bottom: 5px;
 left: -50px;
-text-decoration: underline white;
 width: auto;
 white-space: nowrap;
 display:inline-block;
+}
+.proyecthero{
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
 }
 .portfolio__item{
     border-radius: 2rem;
@@ -61,29 +65,35 @@ opacity: 0.8;
 .proyecytext{
 position: absolute;
 top: 2px;
-padding-top: 450px;
+padding-top: 385px;
 padding-right: 100px;
 opacity: 0;
 width: 100%;
-
 }
 .proyecytext:hover{
  opacity: 1;
  transition: 0.5s;
+ background: rgba(0,0,0, 0.5);
 }
 
 /*================ Meedia Queries Medium ================== */
 @media screen and (max-width:1024px) {
  .portfolio__container{
-  grid-template-columns: 2fr 1fr;
-  gap: 3rem;
+  grid-template-columns: repeat(2,1fr);
   background-color:blue;;
   margin: auto;
   align-content: center;
+  gap: 5rem;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+ }
+ .projecttodo{
+  width: 100%;
  }
  .Proyectimag{
-  width: 300px;
- height: 300px;
+  width: 250px;
+ height: 250px;
 }
 
 .portfolio__item{
@@ -94,7 +104,8 @@ width: 100%;
     width: 100px;
     height: 50px;
     background-color: aqua;
-    margin-top: 50px;
+    margin:3rem;
+    margin-top: 5rem;
     position: relative; 
 }
 .ProyectName{

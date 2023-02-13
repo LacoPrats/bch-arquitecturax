@@ -17,10 +17,9 @@
     font-size: 5rem;
   }
   .logoestudio{
-    background-color: aliceblue;
-    opacity: 70%;
     padding: 10px;
     border-radius: 2px;
+    color: white;
   }
   .headerContainer {
     width: auto;

@@ -8,6 +8,7 @@ import HOME5 from '../assets/imags/home/home5.jpg'
 import './carrousel.css'
 function BoosstrapCarrousel() {
   return (
+    <div className='carr'>
     <Carousel fade className='Carrouseltotal'>
       <Carousel.Item>
         <img
@@ -56,6 +57,7 @@ function BoosstrapCarrousel() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 

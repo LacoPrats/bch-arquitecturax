@@ -14,10 +14,9 @@ const Home = () => {
     <BoosstrapCarrousel/>
     </div>
     <div className='gogo2'>
-      <h1 className="title animate__animated animate__fadeInLeftBig " >Construimos tú sueño</h1>
-      <h3  className="subtitle2 animate__animated animate__fadeInTopRight" >Que estas esperando?</h3>
+      <h1 className="titlehero animate__animated animate__fadeInLeftBig " >Construimos tú sueño</h1>
     </div>
-    <div className='Zone'>\
+    <div className='Zone'>
     <hr className='hrhome' />
     <div  className='gogo' >
       <div className='textsection'>
