@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import IMAG from '../assets/imags/Sauces.jpeg'
+import IMAG from '../../src/assets/imags/Lomas.png'
 import HERO from '../assets/imags/1.jpg'
 import './home.css'
 import BoosstrapCarrousel from '../components/BoosstrapCarrousel'
@@ -14,7 +14,11 @@ const Home = () => {
     <BoosstrapCarrousel/>
     </div>
     <div className='gogo2'>
+      <div className='heroinfo'>
       <h1 className="titlehero animate__animated animate__fadeInLeftBig " >Construimos tú sueño</h1>
+      <p className='texthero'>Tenemos un equipo fenomental con todas las herramientas para convertir la casa de tu sueno en realidad. En bch arquitectura proponemos las herramientras para hacer algo ideal.</p>
+      </div>
+      <img className='gogo2imag' src={IMAG}alt="" />
     </div>
     <div className='Zone'>
     <hr className='hrhome' />

@@ -9,7 +9,7 @@ function Project() {
     <div className="projecttodo">
       <div className='home3'>
         <div>
-          <h1 className='proyecthero animate__animated animate__fadeInLeftBig'>Proyectos</h1>
+          <h1 className='proyecthero animate__animated animate__zoomIn'>PROYECTOS</h1>
         </div>
       </div>
       <div className="container portfolio__container">

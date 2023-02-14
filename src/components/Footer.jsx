@@ -1,11 +1,11 @@
 import React from "react";
 import{MdEmail}from 'react-icons/md'
 import{AiFillFacebook}from 'react-icons/ai'
-import{AiFillInstagram}from 'react-icons/ai'
+import{BsInstagram}from 'react-icons/bs'
 import{AiOutlineMail}from 'react-icons/ai'
 import './footer.css'
 import {BsWhatsapp}from 'react-icons/bs'
-import{ImLocation}from 'react-icons/im'
+import{GoLocation}from 'react-icons/go'
 import LOGO from '../assets/imags/logoblanco.png'
 
 function Footer() {
@@ -23,11 +23,11 @@ function Footer() {
           <p>arquitectura.bch@gmail.com</p>
         </div>
         <div className="info">
-        <AiFillInstagram />
+        <BsInstagram />
           <p>@bcharquitectura</p>
         </div>
         <div className="info">
-          <ImLocation/>
+          <GoLocation/>
           <p>Bahia Grande-Nordelta-Tigre,Bs.As.</p>
         </div>
         </div>

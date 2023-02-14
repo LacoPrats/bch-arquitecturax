@@ -7,7 +7,7 @@ const Estudio = () => {
         <div className='home2'>
             <div className="headerContainer">
                 <div className='logoestudio'>
-                    <h1>Estudio</h1>
+                    <h1 className='proyecthero animate__animated animate__zoomIn'>ESTUDIO</h1>
                 </div>
             </div>
             </div>
