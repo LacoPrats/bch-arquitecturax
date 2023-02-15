@@ -1,35 +1,47 @@
-import React from "react";
-import SaucesV from '../assets/imags/SaucesV.jpg'
+import React from 'react'
+import './contact.css'
+import{AiOutlineMail}from'react-icons/ai'
+import{BsMessenger}from'react-icons/bs'
+import{BsWhatsapp}from'react-icons/bs'
 
-import "./contact.css";
-
-function Contact() {
+const Contact = () => {
   return (
-    <div className="contact">
-      <div
-        className="leftSide"
-        style={{ backgroundImage: `url(${SaucesV})` }}
-      ></div>
-      <div className="rightSide">
-        <h1> Contactanos</h1>
-
-        <form id="contact-form" method="POST">
-          <label htmlFor="name">Nomble Completo</label>
-          <input name="name" placeholder="Escribe tu nombre..." type="text" />
-          <label htmlFor="email">Email</label>
-          <input name="email" placeholder="Escribe su email..." type="email" />
-          <label htmlFor="message">Mensaje</label>
-          <textarea className="textarea"
-            rows="100"
-            placeholder="Escribe su mensaje..."
-            name="message"
-            required
-          ></textarea>
-          <button type="submit"> Enviar Mensaje</button>
-        </form>
+  <section id='contact'>
+   <div className='home3'>
+        <div>
+          <h1 className='proyecthero animate__animated animate__zoomIn'>Contacto</h1>
+        </div>
       </div>
+    <div className="container contact__container">
+      <div className="contact__options">
+      <article className="contact__option">
+        <AiOutlineMail className="contact__option-icon"/>
+        <h4>Email</h4>
+        <h5>info@bcharquitectura.com.ar</h5>
+        <a href="mailto:ezequielprats74@gmail.com">Send message</a>
+      </article>
+      <article className="contact__option">
+        <BsMessenger className="contact__option-icon"/>
+        <h4>Instagram</h4>
+        <h5>@bcharquitectura</h5>
+        <a href="mailto:ezequielprats74@gmail.com">Send message</a>
+      </article>
+      <article className="contact__option">
+        <BsWhatsapp className="contact__option-icon"/>
+        <h4>Whatsapp</h4>
+        <h5>Bch Arquitectura</h5>
+        <a href="https://api.whatsapp.com/send?phone+5491157207088">Send message</a>
+      </article>
+      </div>
+      <form action="">
+        <input type="text" name='name' placeholder='Nombre Completo' required/>
+        <input type="email" name='email'placeholder='Email' required />
+        <textarea name="message" rows="7" placeholder='Escribanos su mensaje' required></textarea>
+        <button type='submit' className='btn btn-primary'>Send Message</button>
+      </form>
     </div>
-  );
+  </section>
+  )
 }
 
-export default Contact;
+export default Contact

@@ -107,6 +107,8 @@ border: 1px solid;
   .Zone{
     padding: 2rem;
     margin: 20px;
+    justify-content: center;
+    align-items: center;
 
   }
  
