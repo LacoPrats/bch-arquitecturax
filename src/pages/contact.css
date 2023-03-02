@@ -26,8 +26,11 @@
   border: 1px solid transparent;
 }
 .contact__option:hover{
-  background: transparent;
   border-color:  #96a077;
+  color: #96a077;
+}
+.contact__option:hover{
+  color: white;
 }
 .contact_option-icon{
   font-size: 1.5rem;
@@ -39,6 +42,12 @@
   display: inline-block;
   font-size: 0.8rem;
   color: white;
+}
+.contact__option a:hover{
+ background-color: rgb(140, 139, 139);
+padding: 5px;
+color: white;
+border-radius: 10px;
 }
 
 form{

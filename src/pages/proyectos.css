@@ -87,7 +87,7 @@ width: 100%;
 /*================ Meedia Queries Medium ================== */
 @media screen and (max-width:1024px) {
  .portfolio__container{
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(2,1fr);
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -101,8 +101,11 @@ width: 100%;
   justify-content: center;
  }
  .Proyectimag{
-  width: 550px;
- height: 550px;
+  width: 350px;
+ height: 350px;
+ object-fit: cover;
+ align-items: center;
+ position: relative;
 }
 
 .portfolio__item{
@@ -113,32 +116,33 @@ width: 100%;
 }
 .home3{
   width: 100%;
-  height: 30vh;
+  height: 50vh;
 }
 .ProyectName{
-  font-size: 3rem;
+  font-size: 1.7rem;
   text-align: center;
 background-color: red;
 opacity: 1;
 width: auto;
-left: -50px;
-
+left: -20px;
+bottom: -30px;
 }
 .proyecytext{
   position: absolute;
-  top: 2px;
-  padding-top: 450px;
-  padding-right: 10px;
-  opacity: 1;
-  width: 80%;
-  background: rgba(0,0,0, 0.5);
-  }
+    top: 50px;
+    padding-top: 200px;
+    padding-right: 30px;
+    opacity: 1;
+    width: 70%;
+    margin: 1rem;
+    }
   .proyecytext:hover{
-   opacity: 1;
-   transition: 0.5s;
-   background: rgba(0,0,0, 0.5);
+    color: red;
+    background-color: aquamarine;
   }
-  
+  .projecttodo{
+text-align: center;
+  }
 }
 
 /*================ Meedia Queries Small ================== */
@@ -146,5 +150,60 @@ left: -50px;
   .portfolio__container{
       grid-template-columns: 1fr;
       gap: 1rem;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
   }
+  .projecttodo{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+   }
+   .Proyectimag{
+    width: 350px;
+   height: 350px;
+   object-fit: cover;
+   align-items: center;
+   position: relative;
+   margin: 20px;
+  }
+  
+  .portfolio__item{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  .home3{
+    width: 100%;
+    height: 10vh;
+  }
+  .ProyectName{
+    font-size: 1.5rem;
+    text-align: center;
+  background-color: blue;
+  opacity: 1;
+  width: auto;
+  left: -20px;
+  bottom: -100px;
+  
+  }
+  .proyecytext{
+    position: absolute;
+    top: 5px;
+    padding-top: 200px;
+    padding-right: 30px;
+    opacity: 1;
+    width: 70%;
+    margin: 1rem;
+    }
+    .proyecytext:hover{
+      opacity: 1;
+      transition: 0.5s;
+      background: rgba(0,0,0, 0.5);
+    }
+    .projecttodo{
+      text-align: center;
+        }
+     
 }

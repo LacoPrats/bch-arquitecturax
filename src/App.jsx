@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 import Project from "./pages/Project";
 import Estudio from "./pages/Estudio";
 import Contact from "./pages/Contact";
-import Acacias from "./Proyecpages/Acacias";
 import BoosstrapCarrousel from "./components/BoosstrapCarrousel";
 import Itemdetail from "./components/Itemdetail";
 
