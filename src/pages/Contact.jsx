@@ -9,7 +9,7 @@ const Contact = () => {
   <section id='contact'>
    <div className='home3'>
         <div>
-          <h1 className='proyecthero animate__animated animate__zoomIn'>Contacto</h1>
+          <h1 className='proyecthero animate__animated animate__zoomIn'>CONTACTO</h1>
         </div>
       </div>
     <div className="container contact__container">
@@ -30,13 +30,14 @@ const Contact = () => {
       <article className="contact__option">
         <BsWhatsapp className="contact__option-icon"/>
         <h4>Whatsapp</h4>
-        <h5>Bch Arquitectura</h5>
+        <h5>BCH ARQUITECTURA</h5>
         <a href="https://api.whatsapp.com/send?phone+549116905.08458">Send message</a>
       </article>
       </div>
       <form action="">
         <input type="text" name='name' placeholder='Nombre Completo' required/>
         <input type="email" name='email'placeholder='Email' required />
+        <input type="text" name='telefono' placeholder='Numero de telefono' required/>
         <textarea name="message" rows="7" placeholder='Escribanos su mensaje' required></textarea>
         <button type='submit' className='btn btn-primary'>Send Message</button>
       </form>

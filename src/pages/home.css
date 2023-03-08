@@ -4,7 +4,7 @@
     margin-left: 50px;
   }
   .gogo{
-    background-image: url("../../src/assets/imags/homesec1.png");
+    background-image: url("../../src/assets/imags/Homesec1.jpg");
  padding: 100px;
  margin: 5px;
  background-size: 100%;
@@ -13,11 +13,12 @@
  grid-template-rows: repeat(1, 1fr);
  grid-column-gap: 0px;
  grid-row-gap: 0px;
- background-repeat: no-repeat
+ background-repeat: no-repeat;
+ margin-top: 2rem
  ;
   }
   .gogo3{
-    background-image: url("../../src/assets/imags/homesec2.png");
+    background-image: url("../../src/assets/imags/Homesec2 (3).jpg");
  padding: 100px;
  margin: 5px;
  background-size: 100%;
@@ -27,14 +28,17 @@
  grid-column-gap: 0px;
  grid-row-gap: 0px;
  ;
- background-repeat: no-repeat
+ background-repeat: no-repeat;
+ margin-top: 2rem
+ 
   }
   .gogo4{
-    background-image: url("../../src/assets/imags/homesec3.png");
+    background-image: url("../../src/assets/imags/Homesec3 (2).jpg");
  padding: 100px;
  margin: 5px;
  background-size: 100%;
  background-repeat: no-repeat;
+ margin-top: 2rem
   }
 
 .text{
@@ -87,15 +91,15 @@ border: 1px solid;
 }
 
   .title{
-    font-size: 5rem;
+    font-size: 3.5rem;
     opacity: 1;
     color: #d8d7d4;
   }
  
   .subtitle{
-    font-size: 2rem;
+    font-size: 1.5rem;
     opacity: 1;
-    margin-left: 15rem;
+    margin-left: 11rem;
     margin-top: 1rem;
     color: #d8d7d4;
   }
@@ -109,11 +113,10 @@ border: 1px solid;
     margin: 20px;
     justify-content: center;
     align-items: center;
-
   }
  
   .tic{
-    font-size: 5rem;
+    font-size: 3rem;
     margin-top: 0.7rem;
     margin-left: 6rem;
     color: #d8d7d4;
@@ -151,15 +154,20 @@ border: 1px solid;
     border-radius: 10rem;
   }
   
-  
-  @media only screen and (max-width: 650px) {
+  @media screen and (max-width:1024px) {
     .home {
       justify-content: center;
       align-items: center;
       height: 50vh;
     }
     
-  
+    .gogo2imag{
+      width: 250px;
+      height: 250px;
+      background-color: #d8d7d4;
+      padding: 1rem;
+      margin-right: 2rem;
+    }
     .headerContainer {
       margin-left: 0px;
       border-radius: 10px;
@@ -202,6 +210,99 @@ border: 1px solid;
        }
        .gogo{
         padding: 100px;
+        width: 100%;
+        height: 10vh;
+        margin: 0;
+       }
+       .gogo3{
+        padding: 200px;
+        width: 100%;
+        height: 10vh;
+        margin: 0;
+       }
+       .gogo4{
+        padding: 100px;
+        width: 100%;
+        height: 10vh;
+        margin: 0;
+       }
+       .title{
+        font-size: 1rem;
+  margin-left: 100px;
+
+      }
+      .Zone{
+        padding: 5rem;
+      }
+      .texthero{
+        text-align: left;
+
+        font-size: 1rem;
+        }
+        .heroinfo{
+          padding: 5rem;
+        margin-left: 2rem;
+        border: #d8d7d4;
+        border: 1px solid;
+        }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+    }
+    
+    .gogo2imag{
+      width: 250px;
+      height: 250px;
+      background-color: #d8d7d4;
+      padding: 1rem;
+      margin-right: 2rem;
+    }
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+    }
+    img{
+        width: 50%;
+       margin: auto;
+       margin-left: 25%;
+      }
+  
+  
+    .headerContainer button {
+      background-color: white;
+      color: #121619;
+      margin: 10px;
+    }
+  
+    .headerContainer button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+    .gogo2{
+      padding: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      align-content: flex-start;
+      width: 100%;
+      height: 10vh;
+      flex-direction: row;
+      background-color: #c6b9a7;
+      font-size: 10px;
+       }
+       .gogo{
+        padding: 50px;
         width: 100%;
         height: 10vh;
         margin: 0;

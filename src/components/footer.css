@@ -63,3 +63,77 @@ font-weight: 800px;
 margin-top: 5px;
 font-weight: bold;
   }
+  /*================ Meedia Queries Medium ================== */
+@media screen and (max-width:1024px) {
+  .footer svg {
+    color: white;
+    margin: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .hrfooter{
+color: white;
+font-weight: 800px;
+  }
+  .logofooter{
+    width: 200px;
+    margin-left: 5.5rem;
+  margin-top:4rem
+  }
+
+  .footer p {
+    color: white;
+    margin-top: 5px;
+    font-size: 1rem;
+    
+  }
+
+  .info{
+    display: flex;
+    font-size: 1rem;
+    margin: 10px;
+    color: aliceblue;
+  }
+  .footerinfo{
+    color: aliceblue;
+margin-top: 5px;
+font-weight: bold;
+  }
+ }
+ 
+ /*================ Meedia Queries Small ================== */
+ @media screen and (max-width:600px) {
+  .footer svg {
+    color: white;
+    margin: 3px;
+    font-size: 0.5rem;
+    cursor: pointer;
+  }
+  .hrfooter{
+color: white;
+font-weight: 800px;
+  }
+  .logofooter{
+    width:100px;
+    margin-left: 3rem;
+  margin-top:4rem
+  }
+
+  .footer p {
+    color: white;
+    font-size: 0.5rem;
+    
+  }
+
+  .info{
+    display: flex;
+    font-size: 0.5rem;
+    margin: 5px;
+    color: aliceblue;
+  }
+  .footerinfo{
+    color: aliceblue;
+margin-top: 5px;
+font-weight: bold;
+  }
+ }

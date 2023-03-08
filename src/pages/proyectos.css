@@ -46,12 +46,13 @@ left: -50px;
 width: auto;
 white-space: nowrap;
 display:inline-block;
+text-align: left;
 }
 .proyecthero{
   color: #d8d7d4;
   font-size: 3rem;
   font-weight: bold;
-  animation-duration: 2s;
+  animation-duration: 4s;
 }
 .portfolio__item{
     border: 1px solid transparent;
@@ -91,7 +92,7 @@ width: 100%;
   align-content: center;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
  }
@@ -106,6 +107,7 @@ width: 100%;
  object-fit: cover;
  align-items: center;
  position: relative;
+ margin: 0.5rem;
 }
 
 .portfolio__item{
@@ -121,28 +123,25 @@ width: 100%;
 .ProyectName{
   font-size: 1.7rem;
   text-align: center;
-background-color: red;
+  background: rgba(0,0,0, 0.5);
 opacity: 1;
 width: auto;
-left: -20px;
-bottom: -30px;
+left: 30px;
+bottom: 10px;
 }
 .proyecytext{
   position: absolute;
-    top: 50px;
-    padding-top: 200px;
-    padding-right: 30px;
+    top: 0px;
+    padding-top: 290px;
+    padding-right: 350px;
     opacity: 1;
     width: 70%;
-    margin: 1rem;
+    margin: 0.5rem;
     }
-  .proyecytext:hover{
-    color: red;
-    background-color: aquamarine;
-  }
   .projecttodo{
 text-align: center;
   }
+ 
 }
 
 /*================ Meedia Queries Small ================== */
@@ -165,7 +164,7 @@ text-align: center;
    object-fit: cover;
    align-items: center;
    position: relative;
-   margin: 20px;
+   margin: 10px;
   }
   
   .portfolio__item{
@@ -180,22 +179,19 @@ text-align: center;
   }
   .ProyectName{
     font-size: 1.5rem;
-    text-align: center;
-  background-color: blue;
+    text-align: left;
+    background: rgba(0,0,0, 0.5);
   opacity: 1;
   width: auto;
-  left: -20px;
-  bottom: -100px;
+  
   
   }
   .proyecytext{
     position: absolute;
-    top: 5px;
-    padding-top: 200px;
-    padding-right: 30px;
+    padding-top: 300px;
     opacity: 1;
-    width: 70%;
-    margin: 1rem;
+    width: 80%;
+    margin: 0.5rem;
     }
     .proyecytext:hover{
       opacity: 1;

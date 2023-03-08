@@ -7,7 +7,6 @@
     padding: 10px;
 z-index: 1;
 }
-
 .navbar .leftSide {
   flex: 50%;
   height: 10%;
@@ -15,11 +14,9 @@ z-index: 1;
   align-items: center;
   padding-left: 150px;
 }
-
 .navbar .leftSide img {
   width: 100px;
 }
-
 .navbar .rightSide {
   flex: 50%;
   height: 100%;
@@ -28,14 +25,11 @@ z-index: 1;
   justify-content: center;
   gap: 1rem;
 }
-
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 20px;
-  
+  margin: 20px; 
 }
-
 .navbar .rightSide button {
   background-color: transparent;
   border: none;
@@ -51,35 +45,29 @@ z-index: 1;
 .navbar .rightSide svg {
   font-size: 10px;
 }
-
 .navbar #open {
   padding-left: 0px;
 }
 .navbar #open img {
 margin-left: 50px;
 }
-
 .navbar #close img {
   display: inherit;
 }
-
 .navbar #open .hiddenLinks {
   display: inherit;
   margin-left: 30px;
 }
-
 .navbar #close .hiddenLinks {
 display: none;
 }
-
 .navbar #open a {
   width: 50px;
   margin: 5px;
 }
-
 #icon{
-  font-size: 1rem;
-  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em; 
 }
 .navicons{
   background-color: #79835b;
@@ -107,7 +95,7 @@ display: none;
   bottom: 0;
   content: "";
   display: block;
-  height: 1px;
+  height: 0.5px;
   left: 50%;
   background: white;
   transition: width 0.5s ease 0s, left 0.5s ease 0s;
@@ -121,7 +109,7 @@ display: none;
 nav a.active{
 text-decoration-line: underline;
 font-weight: bold;
-text-underline-offset: 18px;
+text-underline-offset: 17px;
  
 }
 
@@ -154,16 +142,16 @@ display: flex;
 flex-direction: column;
 width: auto;
   height: auto;
-  top: 100px;
+  top: 80px;
   position: fixed;
   z-index: 1;
   font-size: 1rem;
   text-align: center;
   align-self: center;
-  padding: 100px;
-  gap: 4rem;
-  transition: 0.3 ease-in-out;
-  margin-left: 350px;
+  padding: 50px;
+  gap: 2rem;
+  transition: 0.8 ease-in-out;
+  margin-left: 230px;
 }
 
 }

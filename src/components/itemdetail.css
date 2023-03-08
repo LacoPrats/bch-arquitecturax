@@ -4,18 +4,69 @@ margin-top: 100px;
 }
 
 .detailinfo h1{
-font-size: 4rem;
+font-size: 2rem;
 text-decoration: underline  #96a077;; 
 gap: 20px;
+text-align: left;
+margin-left: 8.5rem;
 }
 .detailinfo h2{
-    font-size: 2rem;
+    font-size: 1rem;
  margin-top: 30px;
+ text-align: left;
+ margin-left: 8.5rem;
     }
 
 .dimag{
-    width: 500px;
-    height: 500px;
+    width:1200px; 
+    height:auto;
     margin: 1rem;
     align-items: center;
 }
+  /*================ Meedia Queries Medium ================== */
+  @media screen and (max-width:1024px) {
+    .ItemDetail{
+        text-align: center;
+        margin-top: 100px;
+        }
+        
+        .detailinfo h1{
+        font-size: 2rem;
+        text-decoration: underline  #96a077;; 
+        gap: 20px;
+        }
+        .detailinfo h2{
+            font-size: 1rem;
+         margin-top: 30px;
+            }
+        
+        .dimag{
+            width: 700px;
+            height: auto;
+            align-items: center;
+        }
+   }
+   
+   /*================ Meedia Queries Small ================== */
+   @media screen and (max-width:600px) {
+    .ItemDetail{
+        text-align: center;
+        margin-top: 30px;
+        }
+        
+        .detailinfo h1{
+        font-size: 1rem;
+        text-decoration: underline  #96a077;; 
+        gap: 5px;
+        }
+        .detailinfo h2{
+            font-size: 0.5rem;
+         margin-top: 10px;
+            }
+        
+        .dimag{
+            width: 350px;
+            height: auto;
+            align-items: center;
+        }
+   }

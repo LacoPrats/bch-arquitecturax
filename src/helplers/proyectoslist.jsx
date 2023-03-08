@@ -32,7 +32,9 @@ import AraucariasV3 from '../assets/imags/proyects/araucauriasV/araucarias5.3.jp
 
 
 import Araucarias4 from '../assets/imags/proyects/araucariasIV/araucarias4.1.jpg'
-import AraucariasIV2 from '../assets/imags/proyects/araucariasIV/araucarias4.1.jpg'
+import AraucariasIV2 from '../assets/imags/proyects/araucariasIV/araucarias4.2.jpg'
+
+
 
 
 
@@ -70,9 +72,9 @@ import Nunes3 from '../assets/imags/proyects/nunes/nunez1.3.jpg'
 import Nunes4 from '../assets/imags/proyects/nunes/nunez1.4.jpg'
 
 
-import Riberas from '../assets/imags/proyects/riberas/riberas1.jpg'
+import Riberas3 from '../assets/imags/proyects/riberas/riberas1.jpg'
 import Riberas2 from '../assets/imags/proyects/riberas/riberas1.2.jpg'
-import Riberas3 from '../assets/imags/proyects/riberas/riberas.13.jpg'
+import Riberas from '../assets/imags/proyects/riberas/riberas.13.jpg'
 
 import SaucesV from '../assets/imags/proyects/saucesV/sauces5.1.jpg'
 import SaucesV2 from '../assets/imags/proyects/saucesV/sauces5.2.jpg'
@@ -84,13 +86,13 @@ import Yaht from '../assets/imags/proyects/yaht/yaht1.jpg'
 import Yaht2 from '../assets/imags/proyects/yaht/yaht2 (2).jpg'
 import Yaht3 from '../assets/imags/proyects/yaht/yaht3 (2).jpg'
 
-import Tipas from '../assets/imags/proyects/tipasI/tipas1.jpg'
-import Tipas2 from '../assets/imags/proyects/tipasI/tipas1.2.jpg'
+import Tipas2 from '../assets/imags/proyects/tipasI/tipas1.jpg'
+import Tipas from '../assets/imags/proyects/tipasI/tipas1.2.jpg'
 
-import VistasI from '../assets/imags/proyects/vistas/vistas1.jpg'
+import VistasI4 from '../assets/imags/proyects/vistas/vistas1.jpg'
 import VistasI2 from '../assets/imags/proyects/vistas/vistas1.2.jpg'
 import VistasI3 from '../assets/imags/proyects/vistas/vistas1.3.jpg'
-import VistasI4 from '../assets/imags/proyects/vistas/vistas1.4.jpg'
+import VistasI from '../assets/imags/proyects/vistas/vistas1.4.jpg'
 
 import VistasII from '../assets/imags/proyects/vistasII/vistas2.1.jpg'
 import VistasII2 from '../assets/imags/proyects/vistasII/vistas2.2.jpg'
@@ -123,10 +125,15 @@ import SaucesIV4 from '../assets/imags/proyects/saucesIV/sauces4.4.jpg'
 import CantonII from '../assets/imags/proyects/cantonII/canton2.jpg'
 import CantonII2 from '../assets/imags/proyects/cantonII/canton2.2.jpg'
 
+import Villamarina from  '../assets/imags/proyects/villamarina/villamarina.jpg'
+import Villamarina2 from  '../assets/imags/proyects/villamarina/villamarina.2.jpg'
+import Villamarina3 from  '../assets/imags/proyects/villamarina/villamarina.3.jpg'
+import Villamarina4 from  '../assets/imags/proyects/villamarina/villamarina.4.jpg'
 
-
-
-
+import VillamarinaII from  '../assets/imags/proyects/villamarinaII/villamarina2.jpg'
+import VillamarinaII2 from  '../assets/imags/proyects/villamarinaII/villamarina2.2.jpg'
+import VillamarinaII3 from  '../assets/imags/proyects/villamarinaII/villamarina2.3.jpg'
+import VillamarinaII4 from  '../assets/imags/proyects/villamarinaII/villamarina2.4.jpg'
 
 
 
@@ -203,10 +210,11 @@ export const data = [
   },
   {
     id: 10,
-    name: "ARAUCARIAS V",
-    image: AraucariasV,
-    image2: AraucariasV2,
-    image3: AraucariasV3,
+    name: "VILLA MARINA",
+    image: Villamarina,
+    image2:Villamarina2,
+    image3: Villamarina3,
+    image4: Villamarina4,
     ubicación:"BS. AS. PUERTOS - ESCOBAR",
   },
   {
@@ -245,6 +253,14 @@ export const data = [
   },
   {
     id: 15,
+    name: "ARAUCARIAS V",
+    image: AraucariasV,
+    image2: AraucariasV2,
+    image3: AraucariasV3,
+    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+  },
+  {
+    id: 16,
     name: "SAUCES",
     image: Sauces,
     image2: SaucesI2,
@@ -253,7 +269,7 @@ export const data = [
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 16,
+    id: 17,
     name: "SAUCES II",
     image: SaucesII,
     image2: SaucesII2,
@@ -262,7 +278,7 @@ export const data = [
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 17,
+    id: 18,
     name: "SAUCES III",
     image: SaucesIII,
     image2: SaucesIII2,
@@ -271,7 +287,7 @@ export const data = [
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 18,
+    id: 19,
     name: "SAUCES IV",
     image: SaucesIV,
     image2: SaucesIV2,
@@ -280,14 +296,14 @@ export const data = [
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 19,
+    id: 20,
     name: "SAUCES V",
     image: SaucesV,
     image2: SaucesV2,
     ubicación:"",
   },
   {
-    id: 20,
+    id: 21,
     name: "CANTON I",
     image: Canton,
     image2: Canton2,
@@ -295,14 +311,23 @@ export const data = [
     ubicación:" EL GOLF , EL CANTON - ESCOBAR, BS. AS",
   },
   {
-    id:21,
+    id: 22,
+    name: "VILLA MARINA II",
+    image: VillamarinaII,
+    image2:VillamarinaII2,
+    image3: VillamarinaII3,
+    image4: VillamarinaII4,
+    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+  },
+  {
+    id:23,
     name: "CANTON II",
     image: CantonII,
     image2: CantonII2,
     ubicación:"EL GOLF , EL CANTON - ESCOBAR, BS. AS",
   },
   {
-    id: 22,
+    id: 24,
     name: "COSTAS",
     image: Costas,
     image2: Costas2,
@@ -310,7 +335,7 @@ export const data = [
     ubicación:"BS. AS. PUERTOS - ESCOBAR",
   },
   {
-    id: 23,
+    id: 25,
     name: "NUNES",
     image: Nunes,
     image2: Nunes2,
@@ -319,7 +344,7 @@ export const data = [
     ubicación:"NUÑEZ – CABA , BS. AS",
   },
   {
-    id: 24,
+    id: 26,
     name: "ALISSOS",
     image: Alissos,
     image2: Alisos2,
@@ -328,7 +353,7 @@ export const data = [
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 25,
+    id: 27,
     name: "BELGRANO",
     image: Belgrano,
     image2: Belgrano2,
@@ -337,7 +362,7 @@ export const data = [
     ubicación:"BELGRANO – CABA , BS. AS",
   },
   {
-    id: 26,
+    id: 28,
     name: "ALEMANIA",
     image: Alemania,
     image2: Alemania2,
@@ -346,7 +371,7 @@ export const data = [
     ubicación:" BAD NAUHEIM  – ALEMANIA, EUROPA",
   },
   {
-    id: 27,
+    id: 29,
     name: "LOMAS",
     image: Lomas,
     image2: Lomas2,
