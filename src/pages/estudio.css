@@ -58,7 +58,46 @@
     transition: 0.3s ease-in;
     color: black;
   }
-  
+ .estudioinfo{
+  font-size: 1rem;
+  padding: 3rem;
+   background-color:  #96a077;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;
+   line-height: 2;
+ }
+ .estudioinfo:hover{
+  background: transparent;
+  color: black;
+  transition: all 400ms ease;
+ }
+ .data__container{
+padding: 5rem;
+justify-content: center;
+text-align: center;
+ }
+ .estudioimag{
+margin-left: 20%;
+height: auto;
+width: 800px;
+margin: 50px;
+ }
+.loggo{
+  width: 200px;
+  height: auto;
+  margin-top: 100px;
+}
+.loggo:hover{
+  scale: 1.2;
+  transition: all 400ms ease;
+}
+.container__logo{
+  text-align: center;
+}
+.estudio_image__container{
+  text-align: center;
+}
   @media only screen and (max-width: 650px) {
     .home3 {
       justify-content: center;

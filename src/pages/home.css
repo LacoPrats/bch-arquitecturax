@@ -70,6 +70,22 @@
  background-color: #96a077;
  margin-top: 2rem;
  gap: 5rem;
+   transition: all 400ms ease;
+
+  }
+  .gogo4:hover{
+    transform: scale(1.03);
+    transition: all 400ms ease;
+
+  }
+  .gogo3:hover{
+    transform: scale(1.03);
+    transition: all 400ms ease;
+
+  }
+  .gogo:hover{
+    transform: scale(1.03);
+    transition: all 400ms ease;
 
   }
 .titlehero{
@@ -150,7 +166,6 @@ border: 1px solid;
   .logo{
     width: 100%;
     background-color: darkkhaki;
-
     border-radius: 10rem;
   }
   
@@ -178,7 +193,7 @@ border: 1px solid;
       align-items: center;
       flex-direction: column;
       color: white;
-    }
+    }hr
     img{
         width: 50%;
        margin: auto;

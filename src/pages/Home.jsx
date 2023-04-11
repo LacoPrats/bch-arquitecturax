@@ -15,8 +15,9 @@ const Home = () => {
     </div>
     <div className='gogo2'>
       <div className='heroinfo'>
-      <h1 className="titlehero animate__animated animate__fadeInLeftBig " >Construimos tú sueño</h1>
-      <p className='texthero'>Tenemos un equipo fenomental con todas las herramientas para convertir la casa de tu sueno en realidad. En bch arquitectura proponemos las herramientras para hacer algo ideal.</p>
+      <h1 className="titlehero animate__animated animate__fadeInLeftBig " >ARQUITECTURA</h1>
+      <h1 className="titlehero animate__animated animate__fadeInLeftBig " >DISEÑO</h1>
+      <h1 className="titlehero animate__animated animate__fadeInLeftBig " >CONSTRUCCION</h1>
       </div>
       <img className='gogo2imag' src={IMAG}alt="" />
     </div>
