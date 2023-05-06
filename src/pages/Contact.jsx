@@ -3,6 +3,7 @@ import './contact.css'
 import{AiOutlineMail}from'react-icons/ai'
 import{BsMessenger}from'react-icons/bs'
 import{BsWhatsapp}from'react-icons/bs'
+import { useRef } from 'react'
 
 const Contact = () => {
   return (

@@ -14,11 +14,11 @@ function Project() {
       </div>
       <div className="container portfolio__container">
         {
-          data.map(({ id, image, name }) => {
+          data.map(({ id, portada, name }) => {
             return (
               <article key={id} className="portfolio__item">
                  <Link to={`/detail/${id}`}>  <div className="portfolio item__image" >
-                <img className="Proyectimag" src={image} alt={name} />
+                <img className="Proyectimag" src={portada} alt={name} />
                   <div className="proyecytext">
                     <p className="ProyectName">{name}</p>
                   </div>

@@ -68,6 +68,9 @@ display: none;
 #icon{
   font-size: 0.8rem;
   letter-spacing: 0.15em; 
+  box-sizing: content-box;
+  width: 10%;
+
 }
 .navicons{
   background-color: #79835b;

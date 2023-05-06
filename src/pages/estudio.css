@@ -59,11 +59,10 @@
     color: black;
   }
  .estudioinfo{
-  font-size: 1rem;
-  padding: 3rem;
-   background-color:  #96a077;
+  font-size: 0.8rem;
+  padding: 1rem;
    border-radius: 10px;
-   color: white;
+   color: black;
    font-weight: bold;
    line-height: 2;
  }
@@ -75,13 +74,11 @@
  .data__container{
 padding: 5rem;
 justify-content: center;
-text-align: center;
+text-align: left;
  }
  .estudioimag{
-margin-left: 20%;
-height: auto;
-width: 800px;
-margin: 50px;
+height: 400px;
+width: 700px;
  }
 .loggo{
   width: 200px;
@@ -97,6 +94,17 @@ margin: 50px;
 }
 .estudio_image__container{
   text-align: center;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+.infocontainer{
+  display: flex;
+}
+.ticestudio{
+  font-size: 3rem;
+    background-color: #96a077;
+  border-radius: 5rem;
+  padding: 0.3rem;
 }
   @media only screen and (max-width: 650px) {
     .home3 {
