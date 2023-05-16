@@ -135,7 +135,7 @@ import CantonII from '../assets/imags/proyects/cantonII/canton2.jpg'
 import CantonII2 from '../assets/imags/proyects/cantonII/canton2.2.jpg'
 import CantonIIport from '../assets/imags/proyects/cantonII/portcanton2.jpg'
 
-import Villamarina from  '../assets/imags/proyects/villamarina/villamarina.jpg'
+import Villamarina from  '../assets/imags/proyects/villamarina/vmarinaportada.jpg'
 import Villamarina2 from  '../assets/imags/proyects/villamarina/villamarina.2.jpg'
 import Villamarina3 from  '../assets/imags/proyects/villamarina/villamarina.3.jpg'
 import Villamarina4 from  '../assets/imags/proyects/villamarina/villamarina.4.jpg'

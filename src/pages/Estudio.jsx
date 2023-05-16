@@ -22,6 +22,11 @@ const Estudio = () => {
                 </div>
             </div>
             </div>
+            <div className='introtext__container'>
+                <div className='introtext__wrapper'>
+                <h3 className='introtext'>Somos un equipo de profesionales dedicados al diseno de proyectos, direccion y construccion de obra</h3>
+            </div>
+            </div>
             <div className="data__container animate__animated  animate__slideInLeft">
                 <div className='infocontainer'>
             <AiOutlineTeam className='ticestudio'/>

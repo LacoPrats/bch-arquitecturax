@@ -14,7 +14,8 @@
  grid-column-gap: 0px;
  grid-row-gap: 0px;
  background-repeat: no-repeat;
- margin-top: 2rem
+ margin-top: 2rem;
+ border-radius: 1rem;
  ;
   }
   .gogo3{
@@ -29,7 +30,8 @@
  grid-row-gap: 0px;
  ;
  background-repeat: no-repeat;
- margin-top: 2rem
+ margin-top: 2rem;
+ border-radius: 1rem;
  
   }
   .gogo4{
@@ -38,7 +40,8 @@
  margin: 5px;
  background-size: 100%;
  background-repeat: no-repeat;
- margin-top: 2rem
+ margin-top: 2rem;
+ border-radius: 1rem;
   }
 
 .text{
@@ -50,27 +53,9 @@
   .hrhome{
     background-color: #c6b9a7;
   }
-.gogo2imag{
-  width: 450px;
-  height: 450px;
-  background-color: #d8d7d4;
-  padding: 1rem;
-  margin-right: 2rem;
-}
   .gogo2{
     width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    text-align: center;
- color: #d8d7d4;
- border: #96a077;
- background-color: #96a077;
- margin-top: 2rem;
- gap: 5rem;
-   transition: all 400ms ease;
+    height: 40vh;
 
   }
   .gogo4:hover{
@@ -89,8 +74,7 @@
 
   }
 .titlehero{
-  color: #d8d7d4;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
     margin-left: 2rem;
 }
@@ -99,13 +83,16 @@ text-align: left;
 margin: 20px;
 font-size: 1rem;
 }
-.heroinfo{
-padding: 100px;
-margin-left: 2rem;
-border: #d8d7d4;
-border: 1px solid;
+.imaghome{
+  width: 1000px;
+  height: auto;
+  padding: 3rem;
+  margin: 1rem;
+  margin-top: 3rem;
 }
-
+.homeim{
+  text-align: center;
+}
   .title{
     font-size: 3.5rem;
     opacity: 1;
@@ -225,29 +212,38 @@ border: 1px solid;
        }
        .gogo{
         padding: 100px;
-        width: 100%;
+        width: 70%;
         height: 10vh;
         margin: 0;
+        box-sizing: content-box;
+        margin-top: 1rem;
        }
        .gogo3{
-        padding: 200px;
-        width: 100%;
+        padding: 100px;
+        width: 70%;
         height: 10vh;
         margin: 0;
+        box-sizing: content-box;
+        margin-top: 1rem;
        }
        .gogo4{
         padding: 100px;
-        width: 100%;
+        width: 70%;
         height: 10vh;
         margin: 0;
+        box-sizing: content-box;
+        margin-top: 1rem;
        }
        .title{
-        font-size: 1rem;
-  margin-left: 100px;
-
+        font-size: 3rem;
+      }
+      .subtitle{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        width: 600px;
       }
       .Zone{
-        padding: 5rem;
+        padding: 1rem;
       }
       .texthero{
         text-align: left;
@@ -260,6 +256,23 @@ border: 1px solid;
         border: #d8d7d4;
         border: 1px solid;
         }
+        .imaghome{
+          width: 700px;
+          height: auto;
+          padding: 1rem;
+          margin: 1rem;
+          margin-top: 3rem;
+        }
+    .tic{
+      font-size: 2rem;
+      margin-left: 0rem;
+    }
+    .text{
+      display: flex;
+      flex: row;
+      gap:1rem;
+      border-radius: 5rem;
+    }
   }
   
   @media only screen and (max-width: 650px) {
@@ -293,7 +306,6 @@ border: 1px solid;
        margin-left: 25%;
       }
   
-  
     .headerContainer button {
       background-color: white;
       color: #121619;
@@ -310,37 +322,54 @@ border: 1px solid;
       justify-content: center;
       align-items: flex-start;
       align-content: flex-start;
-      width: 100%;
-      height: 10vh;
+      width: 50%;
+      height: 5vh;
       flex-direction: row;
       background-color: #c6b9a7;
       font-size: 10px;
        }
        .gogo{
-        padding: 50px;
-        width: 100%;
-        height: 10vh;
+        padding: 100px;
+        width: 40%;
+        height: 5vh;
         margin: 0;
+        box-sizing: content-box;
        }
        .gogo3{
-        padding: 200px;
-        width: 100%;
-        height: 10vh;
+        padding: 100px;
+        width: 50%;
+        height: 5vh;
         margin: 0;
+        box-sizing: content-box;
        }
        .gogo4{
         padding: 100px;
-        width: 100%;
+        width: 40%;
         height: 10vh;
         margin: 0;
+        box-sizing: content-box;
+    margin-top: 0;
        }
        .title{
         font-size: 2rem;
-  margin-left: 100px;
-
+      }
+      .subtitle{
+        font-size: 1rem;
+        margin-left: 0.5rem;
+        width: 200px;
       }
       .Zone{
-        padding: 5rem;
-    
+        padding: 1rem;
+      }
+      .imaghome{
+        width: 350px;
+        height: auto;
+        padding: 1rem;
+        margin: 1rem;
+        margin-top: 1rem;
+      }
+      .tic{
+        font-size: 1rem;
+        margin-left: 0rem;
       }
   }
