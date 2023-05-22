@@ -257,7 +257,7 @@ font-size: 1rem;
         border: 1px solid;
         }
         .imaghome{
-          width: 700px;
+          width: 500px;
           height: auto;
           padding: 1rem;
           margin: 1rem;
@@ -352,11 +352,13 @@ font-size: 1rem;
        }
        .title{
         font-size: 2rem;
+
       }
       .subtitle{
         font-size: 1rem;
-        margin-left: 0.5rem;
+        margin-left: 0.1rem;
         width: 200px;
+        
       }
       .Zone{
         padding: 1rem;

@@ -27,25 +27,23 @@ const Estudio = () => {
                 <h3 className='introtext'>Somos un equipo de profesionales dedicados al diseno de proyectos, direccion y construccion de obra</h3>
             </div>
             </div>
+            <div className='estudiologocontainer'>
+                <GrAssistListening className='ticestudio'/>
+                <AiOutlineFundProjectionScreen className='ticestudio'/> 
+                <AiOutlineFire className='ticestudio'/>
+                <GiStairsGoal className='ticestudio'/>
+                </div>
             <div className="data__container animate__animated  animate__slideInLeft">
                 <div className='infocontainer'>
-            <AiOutlineTeam className='ticestudio'/>
-                <h2 className='estudioinfo'>SOMOS UN EQUIPO DE PROFESIONALES DEDICADOS AL DISEÑO DE PROYECTOS, DIRECCION Y CONSTRUCCION</h2>
-                </div>
-                <div className='infocontainer'>
-                <GrAssistListening className='ticestudio'/>
                 <h2 className='estudioinfo'>NUESTRO TRABAJO SE CENTRA EN ESCUCHAR E INTERPRETAR LOS DESEOS DEL CLIENTE PARA PODER DARLES UNA FORMA CONCRETA Y EJECUTARLOS, CONVIRTIENDO LAS IDEAS EN REALIDAD.</h2>
                 </div>
                 <div className='infocontainer'>
-                <AiOutlineFundProjectionScreen className='ticestudio'/>
                 <h2 className='estudioinfo'>CADA PROYECTO PARA NOSOTROS ES ÚNICO E IRREPETIBLE, DANDO FORMA A ESPACIOS A MEDIDA SEGÚN LAS NECESIDADES DE CADA CLIENTE.</h2>
                 </div>
                 <div className='infocontainer'>
-                <AiOutlineFire className='ticestudio'/>
                 <h2 className='estudioinfo'>NUESTRA PASIÓN POR ESTE TRABAJO SE BASA EN QUE CREEMOS QUE A TRAVÉS DEL DISEÑO SE PUEDE LOGRAR UN MAYOR BIENESTAR DENTRO DE LOS ESPACIOS QUE HABITAMOS.</h2>
                 </div>
                 <div className='infocontainer'>
-                <GiStairsGoal className='ticestudio'/>
                 <h2 className='estudioinfo'>NUESTRO OBJETIVO PRINCIPAL ES LOGRAR UNA ARQUITECTURA QUE SE ADAPTE A CADA INDIVIDUO,  ACOMPAÑANDO Y GUIANDO A NUESTROS CLIENTES EN EL PROCESO.</h2>
             </div>
             </div>

@@ -377,7 +377,7 @@ export const data = [
   },
   {
     id: 25,
-    name: "NUNES",
+    name: "NUNEZ",
     portada: Nunes,
     image: Nunes,
     image2: Nunes2,
@@ -397,6 +397,33 @@ export const data = [
   },
   {
     id: 27,
+    name: "BMARINAS",
+    portada: BMarinas,
+    image: BMarinas2,
+    image2: BMarinas3,
+    ubicación:"VILA MARINA, VILLANUEVA - TIGRE, BS. AS.",
+  },
+  {
+    id: 28,
+    name: "GLORIETAS",
+    portada: Glorietas,
+    image: Glorietas1,
+    image2: Glorietas2,
+    image3: Glorietas3,
+    ubicación:"NORDELTA - TIGRE, BS. AS.",
+  },
+  {
+    id: 29,
+    name: "CARDALES",
+    portada: Cardales,
+    image:Cardales1,
+    image2: Cardales2,
+    image3:Cardales3,
+    ubicación:'LOS CARDALES COUNTRY CLUB – EXALTACION DE LA CRUZ , BS. AS.'
+    ,
+  },
+  {
+    id: 30,
     name: "BELGRANO",
     portada: Belgrano,
     image: Belgrano,
@@ -406,7 +433,7 @@ export const data = [
     ubicación:"BELGRANO – CABA , BS. AS",
   },
   {
-    id: 28,
+    id: 31,
     name: "ALEMANIA",
     portada: Alemania,
     image: Alemania,
@@ -416,38 +443,12 @@ export const data = [
     ubicación:" BAD NAUHEIM  – ALEMANIA, EUROPA",
   },
   {
-    id: 29,
+    id: 32,
     name: "LOMAS",
     portada: Lomas,
     image: Lomas,
     image2: Lomas2,
     ubicación:"LOMAS DE ZAMORA – BS. AS.",
   },
-  {
-    id: 30,
-    name: "BMARINAS",
-    portada: BMarinas,
-    image: BMarinas2,
-    image2: BMarinas3,
-    ubicación:"VILA MARINA, VILLANUEVA - TIGRE, BS. AS.",
-  },
-  {
-    id: 31,
-    name: "GLORIETAS",
-    portada: Glorietas,
-    image: Glorietas1,
-    image2: Glorietas2,
-    image3: Glorietas3,
-    ubicación:"NORDELTA - TIGRE, BS. AS.",
-  },
-  {
-    id: 32,
-    name: "CARDALES",
-    portada: Cardales,
-    image:Cardales1,
-    image2: Cardales2,
-    image3:Cardales3,
-    ubicación:'LOS CARDALES COUNTRY CLUB – EXALTACION DE LA CRUZ , BS. AS.'
-    ,
-  },
+
 ];
