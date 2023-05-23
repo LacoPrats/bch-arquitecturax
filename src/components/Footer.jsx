@@ -1,6 +1,4 @@
 import React from "react";
-import{MdEmail}from 'react-icons/md'
-import{AiFillFacebook}from 'react-icons/ai'
 import{BsInstagram}from 'react-icons/bs'
 import{AiOutlineMail}from 'react-icons/ai'
 import './footer.css'
@@ -11,7 +9,7 @@ import LOGO from '../assets/imags/logoblanco.png'
 function Footer() {
   return (
     <div className="footer__container">
-      <div>
+      <div className="contactFooterContainer">
         <div className="rect"></div>
         <div className="footer">
         <div className="info">
@@ -31,12 +29,11 @@ function Footer() {
           <p>Bahia Grande-Nordelta-Tigre,Bs.As.</p>
         </div>
         </div>
-      <hr className="hrfooter" />
       </div>
-      <div>
-      <img src={LOGO} alt="" className="logofooter"/>
+      <div className="logoFooterContainer">
+        <img src={LOGO} alt="" className="logofooter"/>
+        <div className="rect"></div>
       </div>
-      <div className="rect2"></div>
     </div>
   );
 }

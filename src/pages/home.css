@@ -1,331 +1,89 @@
-
-  .headerContainer {
-    width: auto;
-    margin-left: 50px;
-  }
-  .gogo{
-    background-image: url("../../src/assets/imags/Homesec1.jpg");
- padding: 100px;
- margin: 5px;
- background-size: 100%;
- display: grid;
- grid-template-columns: repeat(1, 1fr);
- grid-template-rows: repeat(1, 1fr);
- grid-column-gap: 0px;
- grid-row-gap: 0px;
- background-repeat: no-repeat;
- margin-top: 2rem;
- border-radius: 1rem;
- ;
-  }
-  .gogo3{
-    background-image: url("../../src/assets/imags/Homesec2 (3).jpg");
- padding: 100px;
- margin: 5px;
- background-size: 100%;
- display: grid;
- grid-template-columns: repeat(1, 1fr);
- grid-template-rows: repeat(1, 1fr);
- grid-column-gap: 0px;
- grid-row-gap: 0px;
- ;
- background-repeat: no-repeat;
- margin-top: 2rem;
- border-radius: 1rem;
- 
-  }
-  .gogo4{
-    background-image: url("../../src/assets/imags/Homesec3 (2).jpg");
- padding: 100px;
- margin: 5px;
- background-size: 100%;
- background-repeat: no-repeat;
- margin-top: 2rem;
- border-radius: 1rem;
-  }
-
-.text{
+.Zone {
+  width: 100%;
   display: flex;
-  flex: row;
-  gap:2rem;
-  border-radius: 5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  padding-bottom: 1.2rem;
 }
-  .gogo4:hover{
-    transform: scale(1.03);
-    transition: all 400ms ease;
 
-  }
-  .gogo3:hover{
-    transform: scale(1.03);
-    transition: all 400ms ease;
-
-  }
-  .gogo:hover{
-    transform: scale(1.03);
-    transition: all 400ms ease;
-
-  }
-.imaghome{
-  width: 1000px;
-  height: auto;
-  padding: 3rem;
-  margin: 1rem;
-  margin-top: 3rem;
+.imaghome {
+  display: block;
+  margin: auto;
+  padding: 2rem 0;
+  width: 60%;
 }
-.homeim{
-  text-align: center;
+
+.infoContainer {
+  width: 85%;
+  font-size: 0.50rem;
+  padding: 0 4%;
+  min-height: 16rem;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.4rem;
+  border-radius: 1rem;
+  transition: all 0.2s;
 }
-  .title{
-    font-size: 3.5rem;
-    opacity: 1;
-    color: #d8d7d4;
-  }
- 
-  .subtitle{
-    font-size: 1.5rem;
-    opacity: 1;
-    margin-left: 11rem;
-    margin-top: 1rem;
-    color: #d8d7d4;
-  }
-  .subtitle2{
-    font-size: 2rem;
-    opacity: 1;
-  text-align: center;
-  }
-  .Zone{
-    padding: 2rem;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-  }
- 
-  .tic{
-    font-size: 3rem;
-    margin-top: 0.7rem;
-    margin-left: 6rem;
-    color: #d8d7d4;
-  }
- 
-  .headerContainer button {
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #121619;
-    height: 90px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: 40px;
-    padding: 30px;
-    text-align: center;
-  }
-  
-  .headerContainer button:hover {
-    background-color:transparent;
-    cursor: pointer;
-    transition: 0.3s ease-in;
-    color: black;
-  }
-  @media screen and (max-width:1024px) {
-    .home {
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-    }
-  
-    .headerContainer {
-      margin-left: 0px;
-      border-radius: 10px;
-      padding: 10px;
-      width: 80%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      color: white;
-    }hr
-    img{
-        width: 50%;
-       margin: auto;
-       margin-left: 25%;
-      }
-  
-  
-    .headerContainer button {
-      background-color: white;
-      color: #121619;
-      margin: 10px;
-    }
-  
-    .headerContainer button:hover {
-      background-color: rgb(225, 225, 225);
-      color: #121619;
-    }
-    .gogo2{
-      padding: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      align-content: flex-start;
-      width: 100%;
-      height: 10vh;
-      flex-direction: row;
-      background-color: #c6b9a7;
-      font-size: 10px;
-       }
-       .gogo{
-        padding: 100px;
-        width: 70%;
-        height: 10vh;
-        margin: 0;
-        box-sizing: content-box;
-        margin-top: 1rem;
-       }
-       .gogo3{
-        padding: 100px;
-        width: 70%;
-        height: 10vh;
-        margin: 0;
-        box-sizing: content-box;
-        margin-top: 1rem;
-       }
-       .gogo4{
-        padding: 100px;
-        width: 70%;
-        height: 10vh;
-        margin: 0;
-        box-sizing: content-box;
-        margin-top: 1rem;
-       }
-       .title{
-        font-size: 3rem;
-      }
-      .subtitle{
-        font-size: 1.5rem;
-        margin-left: 2rem;
-        width: 600px;
-      }
-      .Zone{
-        padding: 1rem;
-      }
-      .texthero{
-        text-align: left;
 
-        font-size: 1rem;
-        }
-        .heroinfo{
-          padding: 5rem;
-        margin-left: 2rem;
-        border: #d8d7d4;
-        border: 1px solid;
-        }
-        .imaghome{
-          width: 500px;
-          height: auto;
-          padding: 1rem;
-          margin: 1rem;
-          margin-top: 3rem;
-        }
-    .tic{
-      font-size: 2rem;
-      margin-left: 0rem;
-    }
-    .text{
-      display: flex;
-      flex: row;
-      gap:1rem;
-      border-radius: 5rem;
-    }
-  }
-  
-  @media only screen and (max-width: 650px) {
-    .home {
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-    }
-    
-    .gogo2imag{
-      width: 250px;
-      height: 250px;
-      background-color: #d8d7d4;
-      padding: 1rem;
-      margin-right: 2rem;
-    }
-    .headerContainer {
-      margin-left: 0px;
-      border-radius: 10px;
-      padding: 10px;
-      width: 80%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      color: white;
-    }
-    img{
-        width: 50%;
-       margin: auto;
-       margin-left: 25%;
-      }
-  
-    .headerContainer button {
-      background-color: white;
-      color: #121619;
-      margin: 10px;
-    }
-  
-    .headerContainer button:hover {
-      background-color: rgb(225, 225, 225);
-      color: #121619;
-    }
-  
-       .gogo{
-        padding: 100px;
-        width: 40%;
-        height: 5vh;
-        margin: 0;
-        box-sizing: content-box;
-       }
-       .gogo3{
-        padding: 100px;
-        width: 50%;
-        height: 5vh;
-        margin: 0;
-        box-sizing: content-box;
-       }
-       .gogo4{
-        padding: 100px;
-        width: 40%;
-        height: 10vh;
-        margin: 0;
-        box-sizing: content-box;
-    margin-top: 0;
-       }
-       .title{
-        font-size: 2rem;
+.infoContainer:hover {
+  transform: scale(1.03);
+}
 
-      }
-      .subtitle{
-        font-size: 1rem;
-        margin-left: 0.1rem;
-        width: 200px;
-        
-      }
-      .Zone{
-        padding: 1rem;
-      }
-      .imaghome{
-        width: 350px;
-        height: auto;
-        padding: 1rem;
-        margin: 1rem;
-        margin-top: 1rem;
-      }
-      .tic{
-        font-size: 1rem;
-        margin-left: 0rem;
-      }
+.infoContainerBackground-1 {
+  background-image: url("../../src/assets/imags/Homesec1.jpg");
+}
+
+.infoContainerBackground-2 {
+  background-image: url("../../src/assets/imags/Homesec2 (3).jpg");
+}
+
+.infoContainerBackground-3 {
+  background-image: url("../../src/assets/imags/Homesec3 (2).jpg");
+}
+
+.infoContainer * {
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.ticContainer {
+  padding-top: 0.45em;
+}
+
+.textContainer > .title {
+  margin: 0;
+  font-size: 1.8em;
+  margin-bottom: 0.2em;
+}
+
+.textContainer > .subtitle {
+  font-size: 1.45em;
+}
+
+.tic {
+  font-size: 2em;
+}
+
+@media only screen and (min-width: 440px) {
+  .infoContainer {
+      font-size: 0.65rem;
   }
+}
+
+@media only screen and (min-width: 540px) {
+  .infoContainer {
+      font-size: 1rem;
+      min-height: 30vw;
+  }
+}
