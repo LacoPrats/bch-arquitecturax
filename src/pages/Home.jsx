@@ -1,6 +1,6 @@
 import React from "react";
 import IMAG from "../../src/assets/imags/home/flashes.png";
-import "./home2.css";
+import "./home.css";
 import BoosstrapCarrousel from "../components/BoosstrapCarrousel";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import "animate.css";
