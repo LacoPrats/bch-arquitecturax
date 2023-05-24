@@ -1,13 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import './index.css'
-import { BrowserRouter ,Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Project from "./pages/Project";
 import Estudio from "./pages/Estudio";
 import Contact from "./pages/Contact";
-import BoosstrapCarrousel from "./components/BoosstrapCarrousel";
 import Itemdetail from "./components/Itemdetail";
 
 function App() {
