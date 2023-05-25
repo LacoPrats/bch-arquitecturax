@@ -1,8 +1,10 @@
 import React from 'react'
-import IMAGs from '../../src/assets/imags/estudioimg.jpg'
-import IMAGs1 from '../../src/assets/imags/estudio2.jpg'
-import IMAGs2 from '../../src/assets/imags/estudio3.jpg'
-import IMAGs3 from '../../src/assets/imags/estudio4.jpg'
+import IMAGs from '../../src/assets/imags/estudio/estudio-A-.jpg'
+import IMAGs1 from '../../src/assets/imags/estudio/estudio-B-.jpg'
+import IMAGs2 from '../../src/assets/imags/estudio/estudio-C-.jpg'
+import IMAGs3 from '../../src/assets/imags/estudio/estudio-D-.jpg'
+import IMAGs4 from '../../src/assets/imags/estudio/estudio-E-.jpg'
+import IMAGs5 from '../../src/assets/imags/estudio/estudio-F-.jpg'
 import { FaAssistiveListeningSystems} from 'react-icons/fa'
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
 import { AiOutlineFire } from 'react-icons/ai'
@@ -23,6 +25,7 @@ const Estudio = () => {
                 <div className='introtext__wrapper'>
                     <h3 className='introtext'>Somos un equipo de profesionales dedicados al diseno de proyectos, direccion y construccion de obra</h3>
                 </div>
+                <div className="rectestudio"></div>
             </div>
             <div className="data__container animate__animated  animate__slideInLeft">
                 <div className='infocontainer'>
@@ -42,11 +45,38 @@ const Estudio = () => {
                     <h2 className='estudioinfo'>NUESTRO OBJETIVO PRINCIPAL ES LOGRAR UNA ARQUITECTURA QUE SE ADAPTE A CADA INDIVIDUO,  ACOMPAÑANDO Y GUIANDO A NUESTROS CLIENTES EN EL PROCESO.</h2>
                 </div>
             </div>
+            <div className='dedicamosContaner'>
+                <h2>En BCH Arquitectura nos dedicamos al diseño y ejecución de proyectos de Arquitecttura, desde reformas y ampliaciones a construcciones desde cero. Cada proyecto es resuelto por un equipo de profesionales que trabajan con pasión y dedicación para interpretar los deseos de los comitentes y transformarlos en espacios habitables, a medida.</h2>
+                <div className='valoresContainer'>
+                <div>
+                    <ul>
+                        <h4>NUESTROS VALORES</h4>
+                        <li>COMPROMISO</li>
+                        <li>CONFIANZA</li>
+                        <li>FLEXIBILIDAD</li>
+                        <li>DEDICACION</li>
+                        <li>TRABAJO EN EQUIPO</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h4>NUESTRA PROPUESTA DE ARQUITECTURA</h4>
+                        <li>ESPACIOS FLEXIBLES Y ADAPTABLES </li>
+                        <li>AMPLITUD E INTEGRACION</li>
+                        <li>CALIDEZ ESPACIAL</li>
+                        <li>ATENCION AL DETALLE</li>
+                        <li>FCONEXIÓN CON LA NATURALEZA</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
             <div className='estudio_image__container'>
                 <img className='estudioimag' src={IMAGs} alt="" />
                 <img className='estudioimag' src={IMAGs1} alt="" />
                 <img className='estudioimag' src={IMAGs2} alt="" />
                 <img className='estudioimag' src={IMAGs3} alt="" />
+                <img className='estudioimag' src={IMAGs4} alt="" />
+                <img className='estudioimag' src={IMAGs5} alt="" />
             </div>
         </div>
 

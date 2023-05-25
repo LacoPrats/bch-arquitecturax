@@ -80,16 +80,69 @@
 .tic {
   font-size: 2em;
 }
+.homeintrocontainer{
+  background-color: #96a077;
+  color: white;
+  padding:2rem;
+ align-items: center;
+}
+.homeinfo{
+  text-align: center;
+padding: 1.5rem;
+margin: auto;
+font-size: 1.8rem;
+}
+.bolded{
+  font-weight: bold;
+}
+.minicarrousel__container{
+padding: 1rem;
+text-align: center;
+font-size: 2rem;
+background-color: #96a077;
+color: aliceblue;
+margin: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.recthome{
+  background-color: #eeeeee;
+  width: 10rem;
+  height: 0.3rem;
+}
+.minicarrouselinfo{
+  text-align: center;
+}
 
 @media only screen and (min-width: 440px) {
   .infoContainer {
       font-size: 0.65rem;
   }
+  .homeintrocontainer{
+    background-color: #96a077;
+    color: white;
+    padding:2rem;
+   width: 100%;
+   align-items: center;
+   font-size: 1.6rem;
+  }
+
 }
 
 @media only screen and (min-width: 540px) {
   .infoContainer {
       font-size: 1.5rem;
       min-height: 25vw;
+  }
+  .homeintrocontainer{
+    background-color: #96a077;
+    color: white;
+    padding:2rem;
+   width: 100%;
+   align-items: center;
+   font-size: 1rem;
   }
 }

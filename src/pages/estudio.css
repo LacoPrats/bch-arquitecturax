@@ -31,7 +31,7 @@
 }
 
 .introtext {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-align: center;
   line-height: 5rem;
 }
@@ -63,12 +63,35 @@
   margin-top: 2rem;
 }
 .estudio_image__container{
-  width: 80%;
-  padding: 2rem;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+justify-content: space-around;
 }
 .estudioimag{
-  width: 20rem;
-  height: auto;
+ width: 500px;
+ height: auto;
 }
+.dedicamosContaner{
+  padding: 2rem;
+  text-align: center;
+}
+.dedicamosContaner> h2{
+ font-size: 1.5rem;
+}
+.valoresContainer{
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.valoresContainer> h4{
+  font-size: 2rem;
+ }
+ .rectestudio{
+ background-color: #96a077;
+  width: 30rem;
+  height: 0.3rem;
+ }

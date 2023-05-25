@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 250px;
   padding: 0 1.2rem;
-  background-image: url("../../src/assets/imags/footer.png");
+  background-image: url("../../src/assets/imags/home/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 10px;
@@ -45,7 +45,7 @@
   width: 50%;
   min-width: 100px;
   height: auto;
-  margin-right: 0.6rem;
+  margin-right: 1rem;
 }
 .footer p {
   color: white;

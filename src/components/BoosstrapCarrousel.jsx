@@ -17,7 +17,6 @@ function BoosstrapCarrousel() {
           alt="First slide"
         />
         <Carousel.Caption className='caption'>
-        <h1 className='carrouselcaption animate__animated  animate__slideInLeft'>El Yacht,Nordelta</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -26,9 +25,7 @@ function BoosstrapCarrousel() {
           src={HOME2}
           alt="Second slide"
         />
-
         <Carousel.Caption>
-        <h1 className='carrouselcaption animate__animated  animate__slideInLeft'>Tipas,Nordelta</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -38,7 +35,6 @@ function BoosstrapCarrousel() {
           alt="Third slide"
         />
         <Carousel.Caption>
-        <h1 className='carrouselcaption animate__animated  animate__slideInLeft'>Riberas,Puertos</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -48,7 +44,6 @@ function BoosstrapCarrousel() {
           alt="Forth slide"
         />
         <Carousel.Caption>
-        <h1 className='carrouselcaption animate__animated  animate__slideInLeft'>Araucarias,Puertos</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -58,7 +53,6 @@ function BoosstrapCarrousel() {
           alt="Fifth  slide"
         />
         <Carousel.Caption>
-        <h1 className='carrouselcaption animate__animated  animate__slideInLeft'>Sauces,Nordelta</h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
