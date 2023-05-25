@@ -1,210 +1,74 @@
 .home2 {
-    background-image: url("../../src/assets/imags/home3.png");
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 80%;
-    text-align: center;
-  }
-  h1{
-    color: #121619;
-    font-size: 5rem;
-  }
-  .logoestudio{
-    padding: 10px;
-    border-radius: 2px;
-    color: white;
-  }
-  .headerContainer {
-    width: auto;
-    margin-left: 50px;
-  }
-
-  .homeLogo{
-    width: 10%;
-   opacity: 100%;
-   padding: 30px;
-   background-color: aliceblue;
-   opacity: 70%;
-  }
-  
-  .headerContainer button {
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #121619;
-    height: 90px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: 40px;
-    padding: 30px;
-    text-align: center;
-  }
-  .headerContainer textarea{
-    height: 200px;
-  }
-  
-  .headerContainer button:hover {
-    background-color:transparent;
-    cursor: pointer;
-    transition: 0.3s ease-in;
-    color: black;
-  }
- .estudioinfo{
-  font-size: 0.8rem;
-  padding: 1rem;
-   border-radius: 10px;
-   color: black;
-   font-weight: bold;
-   line-height: 2;
- }
- .estudioinfo:hover{
-  background: transparent;
-  color: black;
-  transition: all 400ms ease;
- }
- .data__container{
-padding: 3rem;
-justify-content: center;
-text-align: left;
-display: flex;
-gap: 1rem;
- }
- .estudioimag{
-height: 200px;
-width: 200px;
-margin: 2rem;
-margin-left: 6rem;
- }
-.loggo{
-  width: 200px;
-  height: auto;
-  margin-top: 100px;
-}
-.loggo:hover{
-  scale: 1.2;
-  transition: all 400ms ease;
-}
-.container__logo{
+  background-image: url("../../src/assets/imags/home3.png");
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 80%;
   text-align: center;
+}
+
+.introtext__container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  padding-bottom: 1.2rem;
+  padding: 100px;
+}
+
+.introtext__wrapper {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.introtext {
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 5rem;
+}
+
+.data__container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #96a077;
+  color: aliceblue;
+}
+
+.infocontainer {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  text-align: center;
+  align-items: center;
+}
+
+.infocontainer>.ticestudio {
+  font-size: 3.5em;
+
+}
+
+.infocontainer>.estudioinfo {
+  font-size: 1em;
+  margin-top: 2rem;
 }
 .estudio_image__container{
-  text-align: center;
-  padding: 1rem;
-  margin-bottom: 4rem;
-}
-.infocontainer{
+  width: 80%;
+  padding: 2rem;
   display: flex;
-  margin-top: 0.2rem;
-  width: 300px;
-  text-align: justify;
+  justify-content: space-around;
 }
-.ticestudio{
-  font-size: 7rem;
-  color: #96a077;
-  padding: 0rem;
-margin-left: 13rem;
+.estudioimag{
+  width: 20rem;
+  height: auto;
 }
-
-.introtext__container{
-  text-align: center;
-  box-sizing: content-box;
-}
-.introtext__wrapper{
-  box-sizing: content-box;
-  width: 900px;
-  margin-top: 0.5rem;
-  margin-left: 18rem;
-}
-.introtext{
-  font-size: 1,5rem;
-  padding: 5rem;
-  line-height: 3;
-}
-
-  @media only screen and (max-width: 650px) {
-    .home3 {
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-    }
-  
-    .headerContainer {
-      margin-left: 0px;
-      border-radius: 10px;
-      padding: 10px;
-      width: 80%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      color: white;
-    }
-    img{
-        width: 50%;
-        margin: auto;
-      }
-  
-  
-    .headerContainer button {
-      background-color: white;
-      color: #121619;
-      margin: 10px;
-    }
-  
-    .headerContainer button:hover {
-      background-color: rgb(225, 225, 225);
-      color: #121619;
-    }
-    .introtext{
-      font-size: 1rem;
-      padding: 2rem;
-      line-height: 2;
-    }
-  }
-  @media screen and (max-width:1024px) {
-    .home2{
-      width: 100%;
-      height: 50vh;
-    }
-    .introtext__container{
-      text-align: center;
-      box-sizing: content-box;
-    }
-    .introtext__wrapper{
-      box-sizing: content-box;
-      width: 750px;
-      margin-left: 0rem;
-      margin-top: 0.5rem;
-    }
-    .introtext{
-      font-size: 1.5rem;
-      padding: 5rem;
-      line-height: 3;
-    }
-    .estudioinfo{
-      font-size: 0.5rem;
-      padding: 1rem;
-       border-radius: 10px;
-       color: black;
-       font-weight: bold;
-       line-height: 2;
-     }
-     .infocontainer{
-      display: flex;
-      margin-top: 0.2rem;
-      width: 200px;
-      text-align: justify;
-    }
-    .ticestudio{
-   font-size:1rem ;
-  }
-  }
