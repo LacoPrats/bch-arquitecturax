@@ -7,6 +7,13 @@
 .carr{
   text-align: center;
 }
+.carrouselcaption{
+  background-color: rgb(251, 251, 251);
+  color: black;
+  width: 40%;
+  opacity: 70%;
+  border-radius: 2rem;
+}
   @keyframes zoom-in-zoom-out {
     0% {
       transform: scale(1.0, 1.0);
