@@ -42,9 +42,7 @@ const Home = () => {
         {
           arr.map((card, index) => {
             const { img, title, subtitle } = card;
-
             const className = `infoContainer ${img}-${index + 1}`
-
             return (
               <div className={className}>
                 <div className="wrapper">

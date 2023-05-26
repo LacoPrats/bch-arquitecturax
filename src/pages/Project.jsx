@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import { data } from "../helplers/proyectoslist";
+import { data } from "./proyectoslist";
 
 import './proyectos.css'
 

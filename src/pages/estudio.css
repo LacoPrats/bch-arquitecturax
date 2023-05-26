@@ -44,12 +44,11 @@
 }
 
 .infocontainer {
-  padding: 40px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+ justify-items: center;
   width: 20%;
-  text-align: center;
   align-items: center;
 }
 
@@ -61,15 +60,19 @@
 .infocontainer>.estudioinfo {
   font-size: 1em;
   margin-top: 2rem;
+  text-align: justify;
 }
 .estudio_image__container{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-justify-content: space-around;
+  grid-template-columns: repeat(3,1fr);
+justify-items: center;
+margin: 1rem;
+background-color: #96a077;
+padding: 20px;
 }
 .estudioimag{
- width: 500px;
- height: auto;
+ width: 425px;
+ height: 300px;
 }
 .dedicamosContaner{
   padding: 2rem;

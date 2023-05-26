@@ -1,4 +1,4 @@
-import { data } from "../helplers/proyectoslist";
+import { data } from "../pages/proyectoslist";
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./itemdetail.css";
