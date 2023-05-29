@@ -141,3 +141,12 @@ gap: 10px;
   
 
 }
+
+@media only screen and (max-width: 540px) {
+  .homeintrocontainer{
+    font-size: 0.70rem;
+    min-height: 10vw;
+   }
+  
+
+}

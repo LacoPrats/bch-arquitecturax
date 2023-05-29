@@ -450,5 +450,4 @@ export const data = [
     image2: Lomas2,
     ubicación:"LOMAS DE ZAMORA – BS. AS.",
   },
-
 ];
