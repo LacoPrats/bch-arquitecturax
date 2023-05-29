@@ -48,7 +48,7 @@ const Estudio = () => {
             <div className='dedicamosContaner'>
                 <h2>En BCH Arquitectura nos dedicamos al diseño y ejecución de proyectos de Arquitecttura, desde reformas y ampliaciones a construcciones desde cero. Cada proyecto es resuelto por un equipo de profesionales que trabajan con pasión y dedicación para interpretar los deseos de los comitentes y transformarlos en espacios habitables, a medida.</h2>
                 <div className='valoresContainer'>
-                <div>
+                <div className='valores__child'> 
                     <ul>
                         <h4>NUESTROS VALORES</h4>
                         <li>COMPROMISO</li>
@@ -58,7 +58,7 @@ const Estudio = () => {
                         <li>TRABAJO EN EQUIPO</li>
                     </ul>
                 </div>
-                <div>
+                <div className='valores__child'>
                     <ul>
                         <h4>NUESTRA PROPUESTA DE ARQUITECTURA</h4>
                         <li>ESPACIOS FLEXIBLES Y ADAPTABLES </li>
