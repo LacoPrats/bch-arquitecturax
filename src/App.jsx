@@ -8,6 +8,7 @@ import Project from "./pages/Project";
 import Estudio from "./pages/Estudio";
 import Contact from "./pages/Contact";
 import Itemdetail from "./components/Itemdetail";
+import Navbartry from "./components/Navbartry";
 
 function App() {
   return (

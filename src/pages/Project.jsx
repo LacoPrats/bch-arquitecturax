@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import { data } from "./proyectoslist";
+import { data } from "./../pages/proyectoslist";
 
 import './proyectos.css'
 

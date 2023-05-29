@@ -156,7 +156,10 @@
 .minicarrouselinfo {
   text-align: center;
 }
-
+.logobox:hover{
+  scale: 1.1;
+  transition: all 0.5s;
+}
 @media only screen and (min-width: 440px) {
   .infoContainer {
     font-size: 0.65rem;

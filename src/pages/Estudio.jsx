@@ -51,21 +51,21 @@ const Estudio = () => {
                 <div className='valores__child'> 
                     <ul>
                         <h4>NUESTROS VALORES</h4>
-                        <li>COMPROMISO</li>
-                        <li>CONFIANZA</li>
-                        <li>FLEXIBILIDAD</li>
-                        <li>DEDICACION</li>
-                        <li>TRABAJO EN EQUIPO</li>
+                        <li className='valoresinfo'>COMPROMISO</li>
+                        <li className='valoresinfo'>CONFIANZA</li>
+                        <li className='valoresinfo'>FLEXIBILIDAD</li>
+                        <li className='valoresinfo'>DEDICACION</li>
+                        <li className='valoresinfo'>TRABAJO EN EQUIPO</li>
                     </ul>
                 </div>
                 <div className='valores__child'>
                     <ul>
                         <h4>NUESTRA PROPUESTA DE ARQUITECTURA</h4>
-                        <li>ESPACIOS FLEXIBLES Y ADAPTABLES </li>
-                        <li>AMPLITUD E INTEGRACION</li>
-                        <li>CALIDEZ ESPACIAL</li>
-                        <li>ATENCION AL DETALLE</li>
-                        <li>FCONEXIÓN CON LA NATURALEZA</li>
+                        <li className='valoresinfo'>ESPACIOS FLEXIBLES Y ADAPTABLES </li>
+                        <li className='valoresinfo'>AMPLITUD E INTEGRACION</li>
+                        <li className='valoresinfo'>CALIDEZ ESPACIAL</li>
+                        <li className='valoresinfo'>ATENCION AL DETALLE</li>
+                        <li className='valoresinfo'>FCONEXIÓN CON LA NATURALEZA</li>
                     </ul>
                 </div>
             </div>
