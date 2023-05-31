@@ -1,12 +1,11 @@
 import React from "react";
 import './index.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
-import Project from "./pages/Project";
-import Estudio from "./pages/Estudio";
-import Contact from "./pages/Contact";
-import Itemdetail from "./components/Itemdetail";
+import Home from "./pages/Home/Home";
+import Project from "./pages/Proyecto/Project";
+import Estudio from "./pages/Estudio/Estudio";
+import Contact from "./pages/Contact/Contact";
+import Itemdetail from "./components/ItemDetail/Itemdetail";
 import Navbartry from "./components/NavBar/Navbartry";
 import MainLayout from "./layout/MainLayout";
 
