@@ -1,0 +1,19 @@
+.navbarM{
+    position: absolute;
+    top: 100%;
+  background-color: #96a077;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ padding: 2rem;
+ gap:2rem ;
+}
+.navbarM>.navroutes>a{
+    color: white;
+    text-decoration: none;}
+    
+.navBtn{
+    background-color: #96a077;
+    font-size: 1rem;
+    padding: 20px;
+}

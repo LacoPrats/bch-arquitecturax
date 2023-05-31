@@ -1,0 +1,17 @@
+.imagenav{
+  width: 150px;
+  height: auto;
+}
+.navbardesk{
+  background-color: #96a077;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+  top: 0;
+  width: 100%;
+}

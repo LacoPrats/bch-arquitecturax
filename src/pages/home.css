@@ -118,6 +118,7 @@
   font-size: 0.90rem;
   margin: auto;
   text-align: center;
+  min-height: 10vw;
   box-shadow:
     inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
@@ -178,7 +179,7 @@
   }
 
   .homeintrocontainer {
-    font-size: 1rem;
+    font-size: 0.7rem;
     min-height: 10vw;
   }
 
