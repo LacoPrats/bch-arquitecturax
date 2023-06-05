@@ -19,19 +19,19 @@ const Contact = () => {
         <h4>Email</h4>
         <h5>info@bcharquitectura.com.ar
         </h5>
-        <a href="mailto:info@bcharquitectura.com.ar">Send message</a>
+        <a href="mailto:info@bcharquitectura.com.ar">Enviar Mensaje</a>
       </article>
       <article className="contact__option">
         <BsMessenger className="contact__option-icon"/>
         <h4>Instagram</h4>
         <h5>@bcharquitectura</h5>
-        <a href="https://www.instagram.com/bcharquitectura/">Send message</a>
+        <a href="https://www.instagram.com/bcharquitectura/">Enviar Mensaje</a>
       </article>
       <article className="contact__option">
         <BsWhatsapp className="contact__option-icon"/>
         <h4>Whatsapp</h4>
         <h5>BCH ARQUITECTURA</h5>
-        <a href="https://api.whatsapp.com/send?phone+549116905.08458">Send message</a>
+        <a href="https://api.whatsapp.com/send?phone+549116905.08458">Enviar Mensaje</a>
       </article>
       </div>
       <form action="">

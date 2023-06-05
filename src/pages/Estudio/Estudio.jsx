@@ -11,6 +11,7 @@ import { AiOutlineFire } from 'react-icons/ai'
 import { GiStairsGoal } from 'react-icons/gi'
 import "./estudio.css";
 
+
 const Estudio = () => {
     return (
         <div>

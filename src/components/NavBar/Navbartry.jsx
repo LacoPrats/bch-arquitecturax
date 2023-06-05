@@ -13,7 +13,6 @@ function Navbartry() {
   useEffect(() => {
     const idEvent = window.addEventListener("resize", () => {
       setScreenSize(window.innerWidth);
-      console.log("Screen Size:", screenSize);
     })
     return () => window.removeEventListener("resize", idEvent)
   }, [screenSize])

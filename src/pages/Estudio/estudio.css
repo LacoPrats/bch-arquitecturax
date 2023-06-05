@@ -116,10 +116,10 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
       0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 .valoresContainer> h4{
-  font-size: 2rem;
+  font-size: 2em;
  }
  .valores__child> li{
-  font-size: 0.5rem;
+  font-size: 0.5em;
  }
  .rectestudio{
  background-color: #96a077;
@@ -138,12 +138,14 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
 
 @media only screen and (min-width: 540px) {
 
-  
-
 }
 
 @media only screen and (max-width: 540px) {
-
-  
+  .valoresContainer{
+font-size: 0.2em;
+  }
+  .infocontainer{
+    font-size: 0.2em;
+      }
 
 }
