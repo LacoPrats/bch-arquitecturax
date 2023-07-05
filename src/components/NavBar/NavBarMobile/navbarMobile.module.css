@@ -1,6 +1,8 @@
 .navbarM{
     position: absolute;
-    top: 100%;
+    top: 108px;
+    right: 0px;
+    z-index: 1;
   background-color: #96a077;
   display: flex;
   flex-direction: column;
@@ -8,7 +10,7 @@
  padding: 2rem;
  gap:2rem ;
 }
-.navbarM>.navroutes>a{
+a{
     color: white;
     text-decoration: none;}
     

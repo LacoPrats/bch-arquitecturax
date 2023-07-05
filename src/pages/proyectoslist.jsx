@@ -92,14 +92,16 @@ import Yaht3 from '../assets/imags/proyects/yaht/yaht3 (2).jpg'
 
 import Tipas2 from '../assets/imags/proyects/tipasI/tipas1.jpg'
 import Tipas from '../assets/imags/proyects/tipasI/tipas1.2.jpg'
-import Tipas1 from '../assets/imags/proyects/tipasI/porttipas.jpg'
+
 
 import VistasI4 from '../assets/imags/proyects/vistas/vistas1.jpg'
 import VistasI2 from '../assets/imags/proyects/vistas/vistas1.2.jpg'
 import VistasI3 from '../assets/imags/proyects/vistas/vistas1.3.jpg'
 import VistasI from '../assets/imags/proyects/vistas/vistas1.4.jpg'
 
-import VistasII from '../assets/imags/proyects/vistasII/vistas2.1.jpg'
+
+import VistasII from '../assets/imags/proyects/vistasII/vistas2portada.jpg'
+import VistasII1 from '../assets/imags/proyects/vistasII/vistas2.1.jpg'
 import VistasII2 from '../assets/imags/proyects/vistasII/vistas2.2.jpg'
 import VistasII3 from '../assets/imags/proyects/vistasII/vistas2.3.jpg'
 
@@ -168,7 +170,7 @@ export const data = [
   {
     id: 2,
     name: "TIPAS",
-    portada: Tipas1,
+    portada: Tipas2,
     image: Tipas,
     image2: Tipas2,
     ubicación:" NORDELTA - TIGRE, BS. AS",
@@ -180,7 +182,7 @@ export const data = [
     image: Riberas,
     image2: Riberas2,
     image3: Riberas3,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 4,
@@ -190,16 +192,16 @@ export const data = [
     image2: VistasI2,
     image3: VistasI3,
     image4: VistasI4,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id:5,
     name: "VISTAS II",
     portada: VistasII,
-    image: VistasII,
+    image: VistasII1,
     image2: VistasII2,
     image3: VistasII3,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id:6,
@@ -207,7 +209,7 @@ export const data = [
     portada: Araucarias,
     image: Araucarias,
     image2: AraucariasI2,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
 
   {
@@ -216,7 +218,7 @@ export const data = [
     portada: Araucarias2,
     image: Araucarias2,
     image2: AraucariasII2,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 8,
@@ -224,7 +226,7 @@ export const data = [
     portada: Araucarias3,
     image: Araucarias3,
     image2: AraucariasIII2,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id:9,
@@ -232,17 +234,17 @@ export const data = [
     portada:  Araucariaspor,
     image: Araucarias4,
     image2: AraucariasIV2,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 10,
-    name: "VILLA MARINA",
+    name: "VILA MARINA",
     portada: Villamarina,
     image: Villamarina,
     image2:Villamarina2,
     image3: Villamarina3,
     image4: Villamarina4,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 11,
@@ -272,7 +274,7 @@ export const data = [
     image2: Acacias2,
     image3: Acacias3,
     image4: Acacias4,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 14,
@@ -280,7 +282,7 @@ export const data = [
     portada: RiberasIIport,
     image: RiberasII,
     image2: RiberasII2,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 15,
@@ -289,7 +291,7 @@ export const data = [
     image: AraucariasV,
     image2: AraucariasV2,
     image3: AraucariasV3,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 16,
@@ -350,13 +352,13 @@ export const data = [
   },
   {
     id: 22,
-    name: "VILLA MARINA II",
+    name: "VILA MARINA II",
     portada: VillamarinaII,
     image: VillamarinaII,
     image2:VillamarinaII2,
     image3: VillamarinaII3,
     image4: VillamarinaII4,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id:23,
@@ -373,7 +375,7 @@ export const data = [
     image: Costas,
     image2: Costas2,
     image3: Costas3,
-    ubicación:"BS. AS. PUERTOS - ESCOBAR",
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 25,
@@ -383,11 +385,11 @@ export const data = [
     image2: Nunes2,
     image3: Nunes3,
     image4: Nunes4,
-    ubicación:"NUÑEZ – CABA , BS. AS",
+    ubicación:"NUÑEZ – CABA , BS. AS.",
   },
   {
     id: 26,
-    name: "ALISSOS",
+    name: "ALISOS",
     portada: Alissos,
     image: Alissos,
     image2: Alisos2,
@@ -397,7 +399,7 @@ export const data = [
   },
   {
     id: 27,
-    name: "BMARINAS",
+    name: "MARINAS",
     portada: BMarinas,
     image: BMarinas2,
     image2: BMarinas3,
@@ -430,7 +432,7 @@ export const data = [
     image2: Belgrano2,
     image3: Belgrano3,
     image4: Belgrano4,
-    ubicación:"BELGRANO – CABA , BS. AS",
+    ubicación:"BELGRANO – CABA , BS. AS.",
   },
   {
     id: 31,
@@ -440,7 +442,7 @@ export const data = [
     image2: Alemania2,
     image3: Alemania3,
     image4: Alemania4,
-    ubicación:" BAD NAUHEIM  – ALEMANIA, EUROPA",
+    ubicación:" BAD NAUHEIM  – ALEMANIA, EUROPA.",
   },
   {
     id: 32,

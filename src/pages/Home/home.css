@@ -14,7 +14,7 @@
   margin: auto;
   padding: 5rem 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -115,18 +115,18 @@
   color: white;
   padding: 6rem;
   align-items: center;
-  font-size: 0.90rem;
+  font-size: 0.5rem;
   margin: auto;
   text-align: center;
-  min-height: 10vw;
   box-shadow:
     inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  min-height:300px;
 }
 
 .homeintrocontainer>.homeinfo {
   margin: 0;
-  font-size: 2em;
+  font-size: 1.3em;
   margin-bottom: 0.2em;
 }
 
@@ -169,6 +169,9 @@
   .homeintrocontainer {
     font-size: 0.70rem;
   }
+  .homeinfo{
+    font-size: 1rem;
+  }
 
 }
 
@@ -179,18 +182,13 @@
   }
 
   .homeintrocontainer {
-    font-size: 0.7em;
-    min-height: 10vw;
+    font-size: 1em;
   }
-
-
-}
-
-@media only screen and (max-width: 540px) {
-  .homeintrocontainer {
-    font-size: 0.95em;
-    min-height: 10vw;
+  .logocontainer{
+   flex-direction: row;
   }
-
+  .homeinfo{
+    font-size: 4rem;
+  }
 
 }
