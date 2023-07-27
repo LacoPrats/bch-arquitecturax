@@ -7,7 +7,7 @@ import{BsWhatsapp}from'react-icons/bs'
 const Contact = () => {
   return (
   <section id='contact'>
-   <div className='home3'>
+   <div className='home4'>
         <div>
           <h1 className='proyecthero animate__animated animate__zoomIn'>CONTACTO</h1>
         </div>
@@ -39,7 +39,7 @@ const Contact = () => {
         <input type="email" name='email'placeholder='Email' required />
         <input type="text" name='telefono' placeholder='Numero de telefono' required/>
         <textarea name="message" rows="7" placeholder='Escribanos su mensaje' required></textarea>
-        <button type='submit' className='btn btn-primary'>Send Message</button>
+        <a type='submit' className='btn btn-primary' href="mailto:ezequielprats74@gmail.com">Send Message</a>
       </form>
     </div>
   </section>

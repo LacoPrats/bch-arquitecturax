@@ -40,7 +40,7 @@ const Home = () => {
       <div className="logocontainer">
         <div className="logobox">
           <img src={LOGO} alt=""  className="Logo"/>
-          <h3>Diseno</h3>
+          <h3>Diseño</h3>
         </div>
         <div className="logobox">
         <img src={LOGO2} alt=""  className="Logo"/>
@@ -48,7 +48,7 @@ const Home = () => {
         </div>
         <div className="logobox"> 
         <img src={LOGO3} alt="" className="Logo" />
-        <h3>Construccion</h3>
+        <h3>Construcción </h3>
         </div>
       </div>
       <div className="Zone">

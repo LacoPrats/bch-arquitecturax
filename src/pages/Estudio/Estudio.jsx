@@ -24,7 +24,7 @@ const Estudio = () => {
             </div>
             <div className='introtext__container'>
                 <div className='introtext__wrapper'>
-                    <h3 className='introtext'>Somos un equipo de profesionales dedicados al diseno de proyectos, direccion y construccion de obra</h3>
+                    <h3 className='introtext'>Somos un equipo de profesionales dedicados al diseño de proyectos, dirección y construcción de obra</h3>
                 </div>
                 <div className="rectestudio"></div>
             </div>

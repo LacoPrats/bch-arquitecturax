@@ -12,12 +12,11 @@ const Itemdetail = () => {
       <div className="detailinfo">
         <h1>{datap?.name}</h1>
         <h2> Ubicación:{datap?.ubicación}</h2>
-      </div>
-      <div className="detailimag">
-        <img alt={datap.name} src={datap?.image} className="dimag" />
-        <img alt={datap.name} src={datap?.image2} className="dimag" />
-        <img alt={datap.name} src={datap?.image3} className="dimag" />
-        <img alt={datap.name} src={datap?.image4} className="dimag" />
+        <div>
+            {datap.image.map((image, index) => (
+              <img key={index} src={image} alt={`Imagen ${index + 1}`} />
+            ))}
+          </div>
       </div>
     </div>
   );
