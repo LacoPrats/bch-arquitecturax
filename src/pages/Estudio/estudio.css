@@ -142,7 +142,7 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
  }
  @media only screen and (min-width: 440px) {
   .infocontainer{
-font-size: 1rem;
+font-size:1rem;
       }
       .introtext__container {
         font-size: 1rem;
@@ -154,15 +154,15 @@ font-size: 1rem;
         
       }
       .introtext{
-        font-size: 2em;
-        line-height: 5rem;
+        font-size: 1.3em;
+        line-height: 2rem;
       }
       .dedicamosContaner{
         padding: 5rem;
         text-align: center;
       }
       .dedicamosContaner> h2{
-       font-size: 1.8rem;
+       font-size: 1.2rem;
       }
       .estudioimag{
         width: 225px;
@@ -237,3 +237,12 @@ font-size: 1rem;
      }
 }
 
+@media only screen and (min-width: 840px) {
+  .introtext{
+    font-size: 2em;
+    line-height: 4rem;
+  }
+  .dedicamosContaner> h2 {
+    font-size: 1.8rem;
+}
+}

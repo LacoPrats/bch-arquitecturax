@@ -12,9 +12,9 @@ const Itemdetail = () => {
       <div className="detailinfo">
         <h1>{datap?.name}</h1>
         <h2> Ubicación:{datap?.ubicación}</h2>
-        <div>
+        <div className="detailimag">
             {datap.image.map((image, index) => (
-              <img key={index} src={image} alt={`Imagen ${index + 1}`} />
+              <img key={index} src={image} className="dimag" alt={`Imagen ${index + 1}`} />
             ))}
           </div>
       </div>

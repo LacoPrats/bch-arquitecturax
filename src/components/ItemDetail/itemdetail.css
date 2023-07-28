@@ -1,26 +1,26 @@
 .ItemDetail{
 text-align: center;
-margin-top: 100px;
-}
+padding: 2rem;
 
+}
+.detailinfo{
+    text-align: left;  
+}
 .detailinfo h1{
 font-size: 2rem;
 text-decoration: underline  #96a077;; 
 gap: 20px;
 text-align: left;
-margin-left: 8.5rem;
 }
 .detailinfo h2{
     font-size: 1rem;
  margin-top: 30px;
  text-align: left;
- margin-left: 8.5rem;
     }
 
 .dimag{
     width:1200px; 
     height:auto;
-    margin: 1rem;
     align-items: center;
     box-shadow:
     inset 0 -3em 3em rgba(0,0,0,0.1),
