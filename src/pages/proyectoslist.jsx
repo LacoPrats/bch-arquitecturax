@@ -170,7 +170,7 @@ export const data = [
   {
     id: 2,
     name: "TIPAS",
-    portada: Tipas2,
+    portada: Tipas,
     image: [Tipas,Tipas2],
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
@@ -274,13 +274,6 @@ export const data = [
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 17,
-    name: "SAUCES II",
-    portada: SaucesII,
-    image: [SaucesII, SaucesII2,SaucesII3,SaucesII4],
-    ubicación:" NORDELTA - TIGRE, BS. AS",
-  },
-  {
     id: 18,
     name: "SAUCES III",
     portada: SaucesIII,
@@ -371,19 +364,5 @@ export const data = [
     portada: Belgrano,
     image: [Belgrano,Belgrano2,Belgrano3,Belgrano4],
       ubicación:"BELGRANO – CABA , BS. AS.",
-  },
-  {
-    id: 31,
-    name: "ALEMANIA",
-    portada: Alemania,
-    image: [Alemania, Alemania2,Alemania3,Alemania4],
-    ubicación:" BAD NAUHEIM  – ALEMANIA, EUROPA.",
-  },
-  {
-    id: 32,
-    name: "LOMAS",
-    portada: Lomas,
-    image: [Lomas,Lomas2,],
-    ubicación:"LOMAS DE ZAMORA – BS. AS.",
   },
 ];

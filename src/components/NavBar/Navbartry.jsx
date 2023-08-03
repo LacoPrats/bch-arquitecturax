@@ -1,7 +1,7 @@
 import React, {useEffect, useState}  from 'react'
 import LOGO from '../../assets/imags/logoblanco.png'
 import './navbartry.css'
-import { NavLink } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import routes from "./routes"
 import NavBarDesktop from "./NavBarDesktop/NavBarDesktop"
 import NavBarMobile from "./NavBarMobile/NavBarMobile"
@@ -20,7 +20,9 @@ function Navbartry() {
   return (
     <header>
       <div className='navbardesk'>
-        <img src={LOGO} className='imagenav' />
+      <Link to="/"> 
+          <img src={LOGO} className='imagenav' alt="Logo" /> 
+        </Link>
         {
           screenSize > 1200 
           ? <NavBarDesktop routes={routes} />

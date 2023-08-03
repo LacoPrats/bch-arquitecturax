@@ -47,7 +47,7 @@ const Estudio = () => {
                 </div>
             </div>
             <div className='dedicamosContaner'>
-                <h2>En BCH Arquitectura nos dedicamos al diseño y ejecución de proyectos de Arquitecttura, desde reformas y ampliaciones a construcciones desde cero. Cada proyecto es resuelto por un equipo de profesionales que trabajan con pasión y dedicación para interpretar los deseos de los comitentes y transformarlos en espacios habitables, a medida.</h2>
+                <h2>En BCH Arquitectura nos dedicamos al diseño y ejecución de proyectos de Arquitectura, desde reformas y ampliaciones a construcciones desde cero. Cada proyecto es resuelto por un equipo de profesionales que trabajan con pasión y dedicación para interpretar los deseos de los comitentes y transformarlos en espacios habitables, a medida.</h2>
                 <div className='valoresContainer'>
                 <div className='valores__child'> 
                     <ul>
@@ -66,7 +66,7 @@ const Estudio = () => {
                         <li className='valoresinfo'>AMPLITUD E INTEGRACION</li>
                         <li className='valoresinfo'>CALIDEZ ESPACIAL</li>
                         <li className='valoresinfo'>ATENCION AL DETALLE</li>
-                        <li className='valoresinfo'>FCONEXIÓN CON LA NATURALEZA</li>
+                        <li className='valoresinfo'>CONEXIÓN CON LA NATURALEZA</li>
                     </ul>
                 </div>
             </div>

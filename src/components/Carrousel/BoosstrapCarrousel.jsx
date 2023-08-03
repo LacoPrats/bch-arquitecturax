@@ -13,7 +13,7 @@ function BoosstrapCarrousel() {
       <Carousel.Item>
         <img
           className="carrousel"
-          src={HOME1}
+          src={HOME2}
           alt="First slide"
         />
         <Carousel.Caption className='caption'>
@@ -22,7 +22,7 @@ function BoosstrapCarrousel() {
       <Carousel.Item>
         <img
           className="carrousel"
-          src={HOME2}
+          src={HOME1}
           alt="Second slide"
         />
         <Carousel.Caption>

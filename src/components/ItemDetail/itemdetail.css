@@ -4,18 +4,18 @@ padding: 2rem;
 
 }
 .detailinfo{
-    text-align: left;  
+    
 }
 .detailinfo h1{
 font-size: 2rem;
 text-decoration: underline  #96a077;; 
 gap: 20px;
-text-align: left;
+
 }
 .detailinfo h2{
     font-size: 1rem;
  margin-top: 30px;
- text-align: left;
+
     }
 
 .dimag{

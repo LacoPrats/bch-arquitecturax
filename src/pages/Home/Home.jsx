@@ -15,12 +15,12 @@ const arr = [
     img: "infoContainerBackground"
   },
   {
-    title: "Estudios",
+    title: "Obra Nueva",
     subtitle: "REALIZAMOS CONSTRUCCIONES DESDE CERO, DE FORMA INTEGRAL",
     img: "infoContainerBackground"
   },
   {
-    title: "Proyectos",
+    title: "Remodelaciones y Ampliaciones",
     subtitle: "RENOVAMOS TUS ESPACIOS, ADAPTANDOLOS SEGÚN TUS NECESAIDADES",
     img: "infoContainerBackground"
   }
@@ -34,8 +34,9 @@ const Home = () => {
         <BoosstrapCarrousel />
       </div>
       <div className="homeintrocontainer">
-        <h1 className="homeinfo">BIENVENIDOS A <span class="bolded">BCH ARQUITECTURA</span>, UN ESTUDIO DEDICADO AL <span class="bolded">DISEÑO Y CONSTRUCCION</span>, DONDE CONSTRUIMOS ESPACIOS ENTENDIENDO LAS <span class="bolded">NECESIDADES DE LOS CLIENTES</span>.CREAMOS UNA <span class="bolded">ARQUITECTURA SENSIBLE Y A MEDIDA</span>, QUE BUSCA SER EL MEDIO PARA QUE LAS PERSONAS LOGREN HABITAR LOS ESPACIOS CON LOS QUE SUEÑAN.
-          PARA NOSOTROS CADA PROYECTO ES UNICO, POR LO CUAL OFRECEMOS <span class="bolded">PROPUESTAS PERSONALIZADA</span>.</h1>
+        <h1 className="homeinfo">BIENVENIDOS A <span class="bolded">BCH ARQUITECTURA</span>, UN ESTUDIO DEDICADO AL <span class="bolded">DISEÑO Y CONSTRUCCION</span>, DONDE CONSTRUIMOS ESPACIOS ENTENDIENDO LAS <span class="bolded">NECESIDADES DE LOS CLIENTES</span>.</h1>
+          <h1 className="homeinfo"> CREAMOS UNA <span class="bolded">ARQUITECTURA SENSIBLE Y A MEDIDA</span>, QUE BUSCA SER EL MEDIO PARA QUE LAS PERSONAS LOGREN HABITAR LOS ESPACIOS CON LOS QUE SUEÑAN.</h1>
+          <h1 className="homeinfo"> PARA NOSOTROS CADA PROYECTO ES UNICO, POR LO CUAL OFRECEMOS <span class="bolded">PROPUESTAS PERSONALIZADAS</span></h1>
       </div>
       <div className="logocontainer">
         <div className="logobox">
