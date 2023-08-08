@@ -1,25 +1,27 @@
-import { data } from "../../pages/proyectoslist";
 import React from "react";
 import { useParams } from "react-router-dom";
+import { data } from "../../pages/proyectoslist";
 import "./itemdetail.css";
-const Itemdetail = () => {
-  const { id } = useParams();
-  console.log(id);
-  const datap = data.find((x) => x.id === Number(id));
-  console.log(datap);
+import ItemCarousel from "./ItemCarrousel";
+
+function Itemdetail() {
+  const { id } = useParams(); // Obtener el parámetro de la URL
+
+  const project = data.find((project) => project.id === parseInt(id)); // Encontrar el proyecto correspondiente
+
+  if (!project) {
+    return <div>Proyecto no encontrado</div>; // Manejar si el proyecto no se encuentra
+  }
+
   return (
     <div className="ItemDetail">
       <div className="detailinfo">
-        <h1>{datap?.name}</h1>
-        <h2> Ubicación:{datap?.ubicación}</h2>
-        <div className="detailimag">
-            {datap.image.map((image, index) => (
-              <img key={index} src={image} className="dimag" alt={`Imagen ${index + 1}`} />
-            ))}
-          </div>
-      </div>
+      <h2>{project.name}</h2>
+      <p>{project.ubicación}</p>
+      <ItemCarousel images={project.image} />
+    </div>
     </div>
   );
-};
+}
 
 export default Itemdetail;

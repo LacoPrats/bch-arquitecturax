@@ -4,7 +4,7 @@ import LOGO2 from "../../../src/assets/imags/home/logo2.png";
 import LOGO3 from "../../../src/assets/imags/home/logo3.png";
 import "./home.css";
 import BoosstrapCarrousel from "../../components/Carrousel/BoosstrapCarrousel";
-import BoosstrapCarrousel2 from "../../components/MiniCarrousel/BoosstrapCarrousel2";
+import BoosstrapCarrousel2 from "../../components/MiniCarrousel/MiniCarrousel2";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import "animate.css";
 
