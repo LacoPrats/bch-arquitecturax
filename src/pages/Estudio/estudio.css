@@ -90,11 +90,11 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
       0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 .dedicamosContaner{
-  padding: 5rem;
+  padding: 3rem;
   text-align: center;
 }
 .dedicamosContaner> h2{
- font-size: 1em;
+ font-size: 0.8em;
 }
 .valoresContainer{
   margin: 1rem;
@@ -124,9 +124,13 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
 }
 .valoresContainer> h4{
   font-size: 0.2em;
+  margin-top: 1rem;
  }
  .valores__child> li{
   font-size: 0.5em;
+ }
+ .valoresh4{
+  margin-top: 1rem;
  }
  .rectestudio{
  background-color: #96a077;
@@ -139,6 +143,7 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
  }
  .valoresinfo{
   font-size: 0.7rem;
+  margin-left: 1rem;
  }
  @media only screen and (min-width: 440px) {
   .infocontainer{
@@ -164,6 +169,7 @@ font-size:1rem;
       .dedicamosContaner> h2{
        font-size: 1.2rem;
       }
+      
       .estudioimag{
         width: 225px;
         height: 150px;
@@ -216,6 +222,9 @@ font-size:1rem;
     opacity: 80%;
     text-align: center;
   }
+  .valores__child> li{
+   margin-left: 1rem;
+   }
 }
 
 @media only screen and (min-width:1200px) {
@@ -226,6 +235,7 @@ font-size:1rem;
      inset 0 -3em 3em rgba(0,0,0,0.1),
            0.3em 0.3em 1em rgba(0,0,0,0.3);
      }
+
 }
 @media only screen and (min-width:700px) {
   .estudioimag{

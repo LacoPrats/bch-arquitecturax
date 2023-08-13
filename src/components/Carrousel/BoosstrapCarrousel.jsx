@@ -5,6 +5,9 @@ import HOME2 from '../../assets/imags/home/home2.jpg'
 import HOME3 from '../../assets/imags/home/home3.jpg'
 import HOME4 from '../../assets/imags/home/home4.jpg'
 import HOME5 from '../../assets/imags/home/home5.jpg'
+import HOME6 from '../../assets/imags/home/home6.jpg'
+import HOME7 from '../../assets/imags/home/home7.jpg'
+
 import './carrousel.css'
 function BoosstrapCarrousel() {
   return (
@@ -50,6 +53,24 @@ function BoosstrapCarrousel() {
         <img
           className="carrousel"
           src={HOME5}
+          alt="Fifth  slide"
+        />
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="carrousel"
+          src={HOME6}
+          alt="Fifth  slide"
+        />
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="carrousel"
+          src={HOME7}
           alt="Fifth  slide"
         />
         <Carousel.Caption>

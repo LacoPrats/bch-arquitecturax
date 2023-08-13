@@ -1,0 +1,76 @@
+.ItemDetail{
+text-align: center;
+padding: 2rem;
+margin: 2rem;
+gap: 2rem;
+}
+.detailinfo h1{
+font-size: 2rem;
+text-decoration: underline  #96a077;; 
+gap: 20px;
+
+}
+.detailinfo h2{
+    font-size: 2.5rem;
+;
+    }
+
+.dimag{
+    width:100%; 
+    height:auto;
+    align-items: center;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+  /*================ Meedia Queries Medium ================== */
+  @media screen and (max-width:1024px) {
+    .ItemDetail{
+        text-align: center;
+        margin-top: 100px;
+        }
+        
+        .detailinfo h1{
+        font-size: 2rem;
+        text-decoration: underline  #96a077;; 
+        gap: 20px;
+        margin-left:2rem;
+        }
+        .detailinfo h2{
+            font-size: 1rem;
+         margin-top: 30px;
+         margin-left:2rem;
+            }
+        
+        .dimag{
+            width: 700px;
+            height: auto;
+            align-items: center;
+        }
+   }
+   
+   /*================ Meedia Queries Small ================== */
+   @media screen and (max-width:600px) {
+    .ItemDetail{
+        text-align: center;
+        margin-top: 30px;
+        }
+        
+        .detailinfo h1{
+        font-size: 1rem;
+        text-decoration: underline  #96a077;; 
+        gap: 5px;
+        margin-left:1.5rem;
+        }
+        .detailinfo h2{
+            font-size: 0.5rem;
+         margin-top: 10px;
+         margin-left:1.5rem;
+            }
+        
+        .dimag{
+            width: 350px;
+            height: auto;
+            align-items: center;
+        }
+   }

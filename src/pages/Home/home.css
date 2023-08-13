@@ -65,16 +65,15 @@
 }
 
 .infoContainerBackground-1 {
-  background-image: url("../../../src/assets/imags/Homesec1.jpg");
-
+  background-image: url("../../../src/assets/imags/sechome1.jpg");
 }
 
 .infoContainerBackground-2 {
-  background-image: url("../../../src/assets/imags/Homesec2 (3).jpg");
+  background-image: url("../../../src/assets/imags/sechome2.jpg");
 }
 
 .infoContainerBackground-3 {
-  background-image: url("../../../src/assets/imags/Homesec3 (2).jpg");
+  background-image: url("../../../src/assets/imags/sechome3.jpg");
 }
 
 .infoContainer * {

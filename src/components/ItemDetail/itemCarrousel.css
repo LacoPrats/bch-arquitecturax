@@ -1,0 +1,36 @@
+.carousel-container {
+  width: 100%;
+  position: relative;
+}
+
+.itemCarouselTotal {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.itemCarouselImage {
+  width: 100%;
+  height: auto;
+  max-height: 100vh; /* Limitar la altura máxima a la altura de la pantalla */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-indicators {
+  bottom: 15px;
+}
+
+.carousel-indicators li {
+  background-color: #333;
+}
+
+.carousel-indicators .active {
+  background-color: #f44336;
+}

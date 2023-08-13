@@ -61,7 +61,7 @@ const Estudio = () => {
                 </div>
                 <div className='valores__child'>
                     <ul>
-                        <h4>NUESTRA PROPUESTA DE ARQUITECTURA</h4>
+                        <h4 className='valoresh4'>NUESTRA PROPUESTAS</h4>
                         <li className='valoresinfo'>ESPACIOS FLEXIBLES Y ADAPTABLES </li>
                         <li className='valoresinfo'>AMPLITUD E INTEGRACION</li>
                         <li className='valoresinfo'>CALIDEZ ESPACIAL</li>

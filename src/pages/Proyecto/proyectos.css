@@ -11,194 +11,77 @@
   background-size: cover;
   text-align: center;
   color: #d8d7d4;
+
   
 }
-.projectodo{
-text-align: center;
-}
-.menuTitle{
-  text-align: center;
+.projecttodo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
-.portfolio__container{
+.portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-text-align: center;
-align-items: center;
-justify-content: center;
-gap: 2rem;
-margin-top: 2rem;
-margin-bottom: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1400px; /* Limita el ancho máximo para evitar que se expanda demasiado */
+  margin: 1rem auto; /* Centra el contenedor horizontalmente */
 }
-.Proyectimag{
-  width: 450px;
- height: 450px;
-  object-fit: cover;
-  align-items: center;
+
+.portfolio__item {
   position: relative;
+  overflow: hidden;
   box-shadow:
-  inset 0 -3em 3em rgba(0,0,0,0.1),
-        0.3em 0.3em 1em rgba(0,0,0,0.3);
-}
-.ProyectName{
- font-size: 2rem;
- color: #d8d7d4;
-position: relative;
-bottom: 5px;
-left: -50px;
-width: auto;
-white-space: nowrap;
-display:inline-block;
-text-align: left;
-box-sizing: content-box;
-width: 50%;
-}
-.proyecthero{
-  color: #d8d7d4;
-  font-size: 3rem;
-  font-weight: bold;
-  animation-duration: 4s;
-}
-.portfolio__item{
-    border: 1px solid transparent;
-    transition: var(--transition);
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.portfolio__item:hover{
-opacity: 0.8;
+inset 0 -3em 3em rgba(0,0,0,0.1),
+      0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
-.Proyect{
-  align-content: center;
+.Proyectimag {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
-.proyecytext{
-position: absolute;
-top: 2px;
-padding-top: 385px;
-padding-right: 100px;
-opacity: 0;
-width: 100%;
-}
-.proyecytext:hover{
- opacity: 1;
- transition: 0.5s;
- background: rgba(0,0,0, 0.5);
-}
-
-/*================ Meedia Queries Medium ================== */
-@media screen and (max-width:1024px) {
- .portfolio__container{
-  grid-template-columns: repeat(2,1fr);
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
- }
- .projecttodo{
-  align-content: center;
-  align-items: center;
-  justify-content: center;
- }
- .Proyectimag{
-  width: 350px;
- height: 350px;
- object-fit: cover;
- align-items: center;
- position: relative;
- margin: 0.5rem;
-}
-
-.portfolio__item{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-
-}
-.ProyectName{
-  font-size: 1.7rem;
-  text-align: center;
-  background: rgba(0,0,0, 0.5);
-opacity: 1;
-width: auto;
-left: 30px;
-bottom: 10px;
-}
-.proyecytext{
+.ProyectName {
+  font-size: 1.5rem;
   position: absolute;
-    top: 0px;
-    padding-top: 290px;
-    padding-right: 350px;
-    opacity: 1;
-    width: 70%;
-    margin: 0.5rem;
-    }
-  .projecttodo{
-text-align: center;
-  }
- 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-/*================ Meedia Queries Small ================== */
-@media screen and (max-width:600px) {
-  .portfolio__container{
-      grid-template-columns: 1fr;
-      gap: 1rem;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-  }
-  .projecttodo{
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-   }
-   .Proyectimag{
-    width: 350px;
-   height: 350px;
-   object-fit: cover;
-   align-items: center;
-   position: relative;
-   margin: 10px;
-  }
-  
-  .portfolio__item{
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-  
-  }
-
-  .ProyectName{
-    font-size: 1.5rem;
-    text-align: left;
-    background: rgba(0,0,0, 0.5);
+.portfolio__item:hover .ProyectName {
   opacity: 1;
-  width: auto;
-  visibility: visible;
-  
-  
-  }
-  .proyecytext{
-    position: absolute;
-    padding-top: 300px;
-    opacity: 1;
-    width: 80%;
-    margin: 0.5rem;
-    }
-    .proyecytext:hover{
-      opacity: 1;
-      transition: 0.5s;
-      background: rgba(0,0,0, 0.5);
-    }
-    .projecttodo{
-      text-align: center;
-        }
-     
+}
+
+.portfolio__item:hover .Proyectimag {
+  transform: scale(1.05);
+}
+
+.proyecytext {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio__item:hover .proyecytext {
+  opacity: 1;
 }
