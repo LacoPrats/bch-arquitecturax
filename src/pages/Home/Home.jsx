@@ -79,7 +79,7 @@ const Home = () => {
       </div>
       <div className="minicarrousel__container">
         <div className="minicarrouselinfo">
-        <h3>Nuestros Disenos</h3>
+        <h3>Nuestros Diseños</h3>
         </div>
         <div className="recthome"></div>
       <BoosstrapCarrousel2 />

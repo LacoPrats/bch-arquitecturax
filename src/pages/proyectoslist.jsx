@@ -103,11 +103,14 @@ import TipasP from '../assets/imags/proyects/tipasI/portada TIP 23.jpg'
 import Tipas2 from '../assets/imags/proyects/tipasI/tipas1.jpg'
 import Tipas from '../assets/imags/proyects/tipasI/tipas1.2.jpg'
 
-
-import VistasI4 from '../assets/imags/proyects/vistas/vistas1.jpg'
-import VistasI2 from '../assets/imags/proyects/vistas/vistas1.2.jpg'
-import VistasI3 from '../assets/imags/proyects/vistas/vistas1.3.jpg'
-import VistasI from '../assets/imags/proyects/vistas/vistas1.4.jpg'
+import VistasI8 from '../assets/imags/proyects/vistas/08-ajustada.jpg'
+import VistasI7 from '../assets/imags/proyects/vistas/07-ajustada.jpg'
+import VistasI6 from '../assets/imags/proyects/vistas/06-ajustada.jpg'
+import VistasI5 from '../assets/imags/proyects/vistas/05-ajustada.jpg'
+import VistasI4 from '../assets/imags/proyects/vistas/04-ajustada.jpg'
+import VistasI2 from '../assets/imags/proyects/vistas/02-ajustada.jpg'
+import VistasI3 from '../assets/imags/proyects/vistas/03-ajustada.jpg'
+import VistasI from '../assets/imags/proyects/vistas/01-ajustada.jpg'
 import VistasIP from '../assets/imags/proyects/vistas/portada VIST 227.jpg'
 
 
@@ -133,7 +136,7 @@ import SaucesII3 from '../assets/imags/proyects/saucesII/sauces2.3.jpg'
 import SaucesII4 from '../assets/imags/proyects/saucesII/sauces2.4.jpg'
 
 
-import SaucesIIIP from '../assets/imags/proyects/saucesIII/portadaSAU3.jpg'
+import SaucesIIIP from '../assets/imags/proyects/saucesIII/portada SAU 27 (1).jpg'
 import SaucesIII from '../assets/imags/proyects/saucesIII/sauces3.jpg'
 import SaucesIII2 from '../assets/imags/proyects/saucesIII/sauces3.2.jpg'
 import SaucesIII3 from '../assets/imags/proyects/saucesIII/sauces3.3.jpg'
@@ -164,11 +167,6 @@ import VillamarinaII from  '../assets/imags/proyects/villamarinaII/villamarina2.
 import VillamarinaII2 from  '../assets/imags/proyects/villamarinaII/villamarina2.2.jpg'
 import VillamarinaII3 from  '../assets/imags/proyects/villamarinaII/villamarina2.3.jpg'
 import VillamarinaII4 from  '../assets/imags/proyects/villamarinaII/villamarina2.4.jpg'
-
-import Cardales from  '../assets/imags/proyects/cardales/portcardales.jpg'
-import Cardales1 from  '../assets/imags/proyects/cardales/cardales1.jpg'
-import Cardales2 from  '../assets/imags/proyects/cardales/cardales2.jpg'
-import Cardales3 from  '../assets/imags/proyects/cardales/cardales3.jpg'
 
 import GlorietasP from  '../assets/imags/proyects/glorietas/portglorietas.jpg'
 import Glorietas from  '../assets/imags/proyects/glorietas/portglorietas.jpg'
@@ -202,7 +200,7 @@ export const data = [
     id: 4,
     name: "VISTAS I",
     portada: VistasIP,
-    image: [VistasI,VistasI2, VistasI3,VistasI4,],
+    image: [VistasI,VistasI2, VistasI3,VistasI4,VistasI5,VistasI6,VistasI7,VistasI8],
     ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {

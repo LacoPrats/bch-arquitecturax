@@ -34,7 +34,7 @@
 }
 
 .Logo {
-  width: 100px;
+  width:20px;
   height: auto;
 }
 
@@ -126,7 +126,7 @@
 
 .homeintrocontainer>.homeinfo {
   margin: 0;
-  font-size: 1.3em;
+  font-size: 0.9em;
   margin-bottom: 0.2em;
   margin-top: 2rem;
   text-align: left;
@@ -153,8 +153,8 @@
 
 .recthome {
   background-color: #eeeeee;
-  width: 10rem;
-  height: 0.3rem;
+  width: 15rem;
+  height: 0.1rem;
 }
 
 .minicarrouselinfo {
@@ -179,7 +179,7 @@
     flex: column;
   }
 .Logo{
-  width: 100px  ;
+  width: 40px  ;
 }
 .logobox{
 
@@ -194,7 +194,7 @@
   }
 
   .homeintrocontainer {
-    font-size: 1em;
+    font-size: 1.3em;
   
   }
   .logocontainer{
