@@ -95,7 +95,7 @@ import Lomas from '../assets/imags/proyects/lomas/lomas1.jpg'
 import Lomas2 from '../assets/imags/proyects/lomas/lomas1.2.jpg'
 
 import YahtP from '../assets/imags/proyects/yaht/portadaYACHT.jpg'
-import Yaht from '../assets/imags/proyects/yaht/yht1.jpeg'
+import Yaht from '../assets/imags/proyects/yaht/Yaht1.jpg'
 import Yaht2 from '../assets/imags/proyects/yaht/yaht2 (2).jpg'
 import Yaht3 from '../assets/imags/proyects/yaht/AJUSTADA 3.jpg'
 
