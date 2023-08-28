@@ -5,8 +5,8 @@
     overflow: hidden;  
 }
 .carr{
-  text-align: center;
-}
+  text-align: center
+  ;}
 
   @keyframes zoom-in-zoom-out {
     0% {
