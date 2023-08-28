@@ -7,14 +7,13 @@
   padding-bottom: 1.2rem;
  
 }
-
 .logocontainer {
   margin: auto;
-  padding: 5rem 0;
+  padding: 3rem 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .logobox {
@@ -23,20 +22,27 @@
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 1.5rem;
   border-radius: 2rem;
   margin: 1rem;
-  gap: 2rem;
+  gap: 1rem;
   color: #96a077;
   font-weight: bold;
+  transition: transform 0.3s;
+  flex: 1; /* Agregar esta línea */
 }
 
 .Logo {
-  width:20px;
+  width: 60px;
   height: auto;
 }
+
+.logobox:hover {
+  transform: scale(1.05);
+}
+
 
 .infoContainer {
   width: 95%;
@@ -111,9 +117,9 @@
 .homeintrocontainer {
   background-color: #96a077;
   color: white;
-  padding: 6rem;
+  padding: 4rem;
   align-items: center;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   margin: auto;
   text-align: center;
   box-shadow:
@@ -175,16 +181,14 @@
   .homeinfo{
     font-size: 1rem;
   }
-  .logocontainer{
-    flex: column;
+  .logocontainer {
+    padding: 4rem 0;
   }
-.Logo{
-  width: 40px  ;
-}
-.logobox{
 
-}
-
+  .logobox {
+    padding: 2rem;
+    gap: 1rem;
+  }
 }
 
 @media only screen and (min-width: 840px) {
@@ -197,14 +201,30 @@
     font-size: 1.3em;
   
   }
-  .logocontainer{
-   flex-direction: row;
-  }
   .homeinfo{
     font-size: 4rem;
     line-height: 2rem;
   }
-.Logo{
-  width: 200px;
+  .logobox {
+    padding: 2.5rem;
+    gap: 1.5rem;
+  }
+
+  .Logo {
+    width: 80px;
+  }
 }
+@media only screen and (min-width: 1024px) {
+  .logocontainer {
+    padding: 5rem 0;
+  }
+
+  .logobox {
+    padding: 3rem;
+    gap: 2rem;
+  }
+
+  .Logo {
+    width: 100px;
+  }
 }
