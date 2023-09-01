@@ -1,6 +1,6 @@
 .navbarM{
     position: absolute;
-    top: 108px;
+    top: 95px;
     right: 0px;
     z-index: 1;
   background-color: #96a077;
@@ -9,6 +9,7 @@
  align-items: center;
  padding: 2rem;
  gap:2rem ;
+ animation-duration: 1s 300ms;
 }
 a{
     color: white;

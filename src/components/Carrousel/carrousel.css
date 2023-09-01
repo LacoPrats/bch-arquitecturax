@@ -31,7 +31,7 @@
 @media only screen and (max-width: 650px) {
     .carrousel{
         width: 100%;
-        height: auto;
+        height: 40vh;
         margin: 0;
     }
 }

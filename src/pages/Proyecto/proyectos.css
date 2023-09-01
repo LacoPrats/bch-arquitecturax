@@ -11,8 +11,6 @@
   background-size: cover;
   text-align: center;
   color: #d8d7d4;
-
-  
 }
 .projecttodo {
   display: flex;
@@ -46,7 +44,7 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
 }
 
 .ProyectName {
-  font-size: 1.5rem;
+  font-size: 2rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -84,4 +82,9 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
 
 .portfolio__item:hover .proyecytext {
   opacity: 0.70;
+}
+@media (max-width: 768px) {
+  .home3 {
+    height: 50vh; /* Ajusta la altura según tus preferencias */
+  }
 }
