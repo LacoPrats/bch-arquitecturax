@@ -1,3 +1,4 @@
+
 import React,{useState} from 'react'
 import styles from "./navbarMobile.module.css"
 import { NavLink } from 'react-router-dom'
@@ -19,4 +20,4 @@ const NavBarMobile = ({routes}) => {
   )
 }
 
-export default NavBarMobile
+export default NavBarMobile 
