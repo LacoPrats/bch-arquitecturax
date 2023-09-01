@@ -26,6 +26,26 @@
 @media (max-width: 768px) {
   .ItemDetail {
     flex-direction: column;
+    padding: 0px;
+  }
+
+  .detailinfo {
+    padding: 10px;
+  }
+  .detailinfo h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .detailinfo p {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 520px) {
+  .ItemDetail {
+    flex-direction: column;
+    padding: 0px;
   }
 
   .detailinfo {
@@ -38,6 +58,6 @@
   
   .detailinfo p {
     font-size: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 }

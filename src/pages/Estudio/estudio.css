@@ -201,7 +201,108 @@ text-align:justify;
     text-align: center;
   }
 }
+@media (max-width: 520px) {
+  .estudioimag {
+    flex-basis: calc(50% - 1rem); /* Tamaño base para 2 imágenes por fila */
+    max-width: calc(50% - 1rem); /* Máximo ancho permitido */
+  }
+  .dedicamosContaner {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .dedicamosContaner>h2 {
+    font-size: 1.3em;
+    line-height: 2rem;
+text-align:justify;
+  }
+  
+  .introtext__container {
+    font-size: 1rem;
+    padding: 4rem;
+  }
+  
+  .introtext {
+    font-size: 1.3em;
+    line-height: 2rem;
+  }
+  
+  .dedicamosContaner {
+    padding: 5rem;
+    text-align: center;
+  }
+  .valores__child {
+    min-width: 180%;
+    text-align: center;
+  }
 
+  .valoresContainer {
+    font-size: 0.8rem; /* Cambiar el tamaño de la tipografía en pantallas de formato celular */
+    text-align: center;
+    justify-content: center;
+  }
+
+  .valores__child > ul > li {
+    font-size: 0.8rem; /* Cambiar el tamaño de la tipografía en pantallas de formato celular */
+    text-align: center;
+  }
+
+  .valoresh4 {
+    font-size: 1rem; /* Cambiar el tamaño de la tipografía en pantallas de formato celular */
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  .estudioimag {
+    flex-basis: calc(50% - 1rem); /* Tamaño base para 2 imágenes por fila */
+    max-width: calc(50% - 1rem); /* Máximo ancho permitido */
+  }
+  .dedicamosContaner {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .dedicamosContaner>h2 {
+    font-size: 1.3em;
+    line-height: 2rem;
+text-align:justify;
+  }
+  
+  .introtext__container {
+    font-size: 1rem;
+    padding: 4rem;
+  }
+  
+  .introtext {
+    font-size: 1.3em;
+    line-height: 2rem;
+  }
+  
+  .dedicamosContaner {
+    padding: 5rem;
+    text-align: center;
+  }
+  .valores__child {
+    min-width: 250%;
+    text-align: center;
+  }
+
+  .valoresContainer {
+    font-size: 0.8rem; /* Cambiar el tamaño de la tipografía en pantallas de formato celular */
+    text-align: center;
+    justify-content: center;
+  }
+
+  .valores__child > ul > li {
+    font-size: 0.8rem; /* Cambiar el tamaño de la tipografía en pantallas de formato celular */
+    text-align: center;
+  }
+
+  .valoresh4 {
+    font-size: 1rem; /* Cambiar el tamaño de la tipografía en pantallas de formato celular */
+    text-align: center;
+  }
+}
 @media only screen and (min-width: 1000px) {
 
   .home2 {
@@ -239,9 +340,3 @@ text-align:justify;
     height: 50vh; /* Ajusta la altura según tus preferencias */
   }
 }
-
-
-
-
-
-
