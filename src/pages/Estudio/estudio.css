@@ -93,8 +93,8 @@
 
 .estudioimag {
   flex-grow: 1;
-  flex-basis: calc(33.333% - 1rem); /* Tamaño base para 3 imágenes por fila */
-  max-width: calc(33.333% - 1rem); /* Máximo ancho permitido */
+  flex-basis: calc(16.666% - 1rem); /* Tamaño base para 6 imágenes por fila */
+  max-width: calc(16.666% - 1rem); /* Máximo ancho permitido */
   height: auto;
   margin: 0.5rem; /* Espacio entre las imágenes */
 }

@@ -75,11 +75,11 @@
 }
 
 .infoContainerBackground-2 {
-  background-image: url("../../../src/assets/imags/sechome2.png");
+  background-image: url("../../../src/assets/imags/sechome3.png");
 }
 
 .infoContainerBackground-3 {
-  background-image: url("../../../src/assets/imags/sechome3.png");
+  background-image: url("../../../src/assets/imags/sechome2.png");
 }
 
 .infoContainer * {
@@ -203,6 +203,26 @@
     font-size: 6em;
   
   }
+  .minicarrousel__container {
+    padding: 0rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #96a077;
+    color: aliceblue;
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+  
+.minicarrouselinfo {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+}
 }
 @media only screen and (min-width: 840px) {
   .infoContainer {
@@ -226,6 +246,8 @@
   .Logo {
     width: 80px;
   }
+ 
+  
 }
 @media only screen and (min-width: 900px) {
   .infoContainer {
