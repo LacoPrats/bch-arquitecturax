@@ -146,6 +146,15 @@ import BMarinas from '../assets/imags/proyects/bmarinas/bmarinas.jpg'
 import BMarinas2 from '../assets/imags/proyects/bmarinas/bmarinas1.jpg'
 import BMarinas3 from '../assets/imags/proyects/bmarinas/bmarinas3.jpg'
 
+import TipasIIIP from '../assets/imags/proyects/tipasIII/TipasIIIP.jpg'
+import TipasIII1 from '../assets/imags/proyects/tipasIII/TipasIII.jpg'
+
+
+import CasaFoaP from '../assets/imags/proyects/casafoa/portada FOA.jpg'
+import CasaFoa1 from '../assets/imags/proyects/casafoa/1 FOA.jpg'
+import CasaFoa2 from '../assets/imags/proyects/casafoa/2 FOA.jpg'
+import CasaFoa3 from '../assets/imags/proyects/casafoa/3 FOA.jpg'
+import CasaFoa4 from '../assets/imags/proyects/casafoa/4 FOA.jpg'
 
 import SaucesIVP from '../assets/imags/proyects/saucesIV/portadaSAU4.jpg'
 import SaucesIV from '../assets/imags/proyects/saucesIV/sauces4.1.jpg'
@@ -156,6 +165,10 @@ import SaucesIV4 from '../assets/imags/proyects/saucesIV/sauces4.4.jpg'
 import CantonII from '../assets/imags/proyects/cantonII/canton2.jpg'
 import CantonII2 from '../assets/imags/proyects/cantonII/canton2.2.jpg'
 import CantonIIport from '../assets/imags/proyects/cantonII/portcanton2.jpg'
+
+import TipasIIP from '../assets/imags/proyects/tipasII/portada TIP 83.jpg'
+import TipasII1 from '../assets/imags/proyects/tipasII/1 (5).jpg'
+import TipasII2 from '../assets/imags/proyects/tipasII/2 (9).jpg'
 
 import Villamarina from  '../assets/imags/proyects/villamarina/portadVM.jpg'
 import Villamarina2 from  '../assets/imags/proyects/villamarina/villamarina.2.jpg'
@@ -248,125 +261,146 @@ export const data = [
   },
   {
     id: 11,
+    name: "CASA FOA 2023",
+    portada: CasaFoaP,
+    image: [CasaFoa1, CasaFoa2,CasaFoa3,CasaFoa4],
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+  },
+  {
+    id: 12,
     name: "LAGOS",
     portada: LagosP,
     image: [Lagos,Lagos2, Lagos3,Lagos4],
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 12,
+    id: 13,
     name: "BAHIA",
     portada: BahiaP,
     image: [Bahia,Bahia2,Bahia3,Bahia4],
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 13,
+    id: 14,
     name: "ACACIAS",
     portada:Acaciaspor,
     image: [Acacias, Acacias2,Acacias3,Acacias4,],
     ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
-    id: 14,
+    id: 15,
     name: "RIBERAS II",
     portada: RiberasIIP,
     image: [RiberasII,RiberasII2,],
     ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
-    id: 15,
+    id: 16,
     name: "ARAUCARIAS V",
   portada: AraucariasVP,
     image: [AraucariasV,AraucariasV2,AraucariasV3],
     ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
-    id: 16,
+    id: 17,
+    name: "TIPAS II",
+  portada: TipasIIP,
+    image: [TipasII1,TipasII2,],
+    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+  },
+  {
+    id: 18,
     name: "SAUCES",
     portada: SaucesP,
     image: [Sauces,SaucesI2,SaucesI3,SaucesI4],
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 18,
+    id: 19,
     name: "SAUCES III",
     portada: SaucesIIIP,
     image: [SaucesIII, SaucesIII2,SaucesIII3,SaucesIII4],
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 19,
+    id: 20,
     name: "SAUCES IV",
     portada: SaucesIVP,
     image: [SaucesIV, SaucesIV2,SaucesIV3,SaucesIV4],
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 20,
+    id: 21,
     name: "SAUCES V",
     portada: SaucesVP,
     image: [SaucesV, SaucesV2],
     ubicación:" NORDELTA - TIGRE, BS. AS.",
   },
   {
-    id: 21,
+    id: 22,
     name: "CANTON I",
     portada: CantonP,
     image: [Canton,Canton2,Canton3,],
     ubicación:" EL GOLF , EL CANTON - ESCOBAR, BS. AS",
   },
   {
-    id: 22,
+    id: 23,
     name: "VILA MARINA II",
     portada: VillamarinaIIP,
     image: [VillamarinaII,VillamarinaII2, VillamarinaII3, VillamarinaII4],
     ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
-    id:23,
+    id:24,
     name: "CANTON II",
     portada: CantonIIport,
     image: [CantonII, CantonII2],
     ubicación:"EL GOLF , EL CANTON - ESCOBAR, BS. AS",
   },
   {
-    id: 24,
+    id: 25,
     name: "COSTAS",
     portada: Costasport,
     image: [Costas,Costas2,Costas3,],
     ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
-    id: 25,
+    id: 26,
     name: "NUNEZ",
     portada: NunesP,
     image:[Nunes,Nunes2,Nunes3, Nunes4,],
     ubicación:"NUÑEZ – CABA , BS. AS.",
   },
   {
-    id: 26,
+    id: 27,
     name: "ALISOS",
     portada: AlissosP,
     image: [Alissos,Alisos2,Alisos3,Alisos4],
     ubicación:" NORDELTA - TIGRE, BS. AS",
   },
   {
-    id: 27,
+    id: 28,
     name: "MARINAS",
     portada: BMarinas,
     image: [BMarinas2,BMarinas3],
     ubicación:"VILA MARINA, VILLANUEVA - TIGRE, BS. AS.",
   },
   {
-    id: 28,
+    id: 29,
+    name: "TIPAS III",
+    portada:TipasIIIP,
+    image: [TipasIII1],
+    ubicación:"VILA MARINA, VILLANUEVA - TIGRE, BS. AS.",
+  },
+  {
+    id: 30,
     name: "GLORIETAS",
     portada: GlorietasP,
     image: [Glorietas1, Glorietas2, Glorietas3],
     ubicación:"NORDELTA - TIGRE, BS. AS.",
   },
   {
-    id: 30,
+    id: 31,
     name: "BELGRANO",
     portada: BelgranoP,
     image: [Belgrano,Belgrano2,Belgrano3,Belgrano4],

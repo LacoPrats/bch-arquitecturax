@@ -13,19 +13,25 @@ function Footer() {
         <div className="rect"></div>
         <div className="footer">
         <div className="info">
+          <a href='https://api.whatsapp.com/send?phone=+5491157207090&text=Hola,%20estoy%20interesado%20en%20sus%20servicios.'>
           <BsWhatsapp/>
+          </a>
           <p>+54911-6-905-8458</p>
         </div>
         <div className="info">
+       <a href='mailto:info@bcharquitectura.com.ar'>
           <AiOutlineMail/>
+       </a>
           <p>arquitectura.bch@gmail.com</p>
         </div>
         <div className="info">
+          <a  href='https://www.instagram.com/bcharquitectura/'>
         <BsInstagram />
+          </a>
           <p>@bcharquitectura</p>
         </div>
         <div className="info">
-          <GoLocation/>
+         <GoLocation/>
           <p>Bahia Grande-Nordelta-Tigre,Bs.As.</p>
         </div>
         </div>

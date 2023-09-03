@@ -26,6 +26,7 @@
   max-width: 1400px; /* Limita el ancho máximo para evitar que se expanda demasiado */
   margin: 1rem auto; /* Centra el contenedor horizontalmente */
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .portfolio__item {
@@ -51,7 +52,6 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
   width: 100%;
   padding: 0.5rem;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   opacity: 0;
   transition: opacity 0.3s ease;

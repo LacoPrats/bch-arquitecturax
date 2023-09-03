@@ -5,7 +5,7 @@ import MINIHOME2 from '../../assets/imags/home/carrousel2.png'
 import './minicarrousel.css'
 function MiniCarrousel() {
   return (
-    <div className=''>
+    <div className='carrouselhome'>
     <Carousel fade className='miniCarrouseltotal'>
       <Carousel.Item>
         <img
