@@ -23,7 +23,7 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .ItemDetail {
     flex-direction: column;
     padding: 0px;
@@ -53,6 +53,25 @@
   }
   .detailinfo h2 {
     font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .detailinfo p {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 700px) {
+  .ItemDetail {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .detailinfo {
+    padding: 10px;
+  }
+  .detailinfo h2 {
+    font-size: 15px;
     margin-bottom: 10px;
   }
   

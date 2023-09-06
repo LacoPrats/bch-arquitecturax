@@ -49,33 +49,6 @@ function BoosstrapCarrousel() {
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="carrousel"
-          src={HOME5}
-          alt="Fifth  slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="carrousel"
-          src={HOME6}
-          alt="Fifth  slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="carrousel"
-          src={HOME7}
-          alt="Fifth  slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
     </Carousel>
     </div>
   );

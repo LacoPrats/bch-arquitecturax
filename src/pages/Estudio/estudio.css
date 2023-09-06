@@ -1,5 +1,5 @@
 .home2 {
-  background-image: url("../../../src/assets/imags/estudio/home3.png");
+  background-image: url("../../../src/assets/imags/estudio/estudio.png");
   width: 100%;
   height: 50vh;
   display: flex;
@@ -151,7 +151,13 @@
 .valoresh4 {
   margin-top: 1rem;
 }
-@media (max-width: 768px) {
+.estudiocontainer{
+  background-color: #96a077;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+@media (max-width: 788px) {
   .estudioimag {
     flex-basis: calc(50% - 1rem); /* Tamaño base para 2 imágenes por fila */
     max-width: calc(50% - 1rem); /* Máximo ancho permitido */
@@ -307,7 +313,7 @@ text-align:justify;
 @media only screen and (min-width: 1000px) {
 
   .home2 {
-    background-image: url("../../../src/assets/imags/estudio/home3.png");
+    background-image: url("../../../src/assets/imags/estudio/estudio.png");
     width: 100%;
     height: 70vh;
     display: flex;

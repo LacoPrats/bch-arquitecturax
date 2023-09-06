@@ -1,0 +1,36 @@
+.Ecarrousel{
+    width: 100%;
+    height: auto;
+}
+.ECarrouseltotal{
+  text-align: center;
+  margin: 0;
+}
+
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1.0, 1.0);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1.2, 1.2);
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .carrousel{
+      width: 110%;
+      height: auto;
+      margin: 0;
+  }
+
+}
+  
+@media only screen and (min-width: 650px) {
+    .carrousel{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}

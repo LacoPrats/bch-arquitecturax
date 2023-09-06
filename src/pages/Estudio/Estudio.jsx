@@ -1,16 +1,10 @@
 import React from 'react'
-import IMAGs from '../../../src/assets/imags/estudio/estudio-A- (1).jpg'
-import IMAGs1 from '../../../src/assets/imags/estudio/estudio-B- (1).jpg'
-import IMAGs2 from '../../../src/assets/imags/estudio/estudio-C- (1).jpg'
-import IMAGs3 from '../../../src/assets/imags/estudio/AJUSTADA 1-estudio-D-.jpg'
-import IMAGs4 from '../../../src/assets/imags/estudio/estudio-E- (1).jpg'
-import IMAGs5 from '../../../src/assets/imags/estudio/estudio-F- (1).jpg'
 import { FaAssistiveListeningSystems} from 'react-icons/fa'
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
 import { AiOutlineFire } from 'react-icons/ai'
 import { GiStairsGoal } from 'react-icons/gi'
 import "./estudio.css";
-
+import EstudioCarrousel from './EstudioCarrousel'
 
 const Estudio = () => {
     return (
@@ -61,7 +55,7 @@ const Estudio = () => {
                 </div>
                 <div className='valores__child'>
                     <ul>
-                        <h4 className='valoresh4'>NUESTRA PROPUESTAS</h4>
+                        <h4 >NUESTRA PROPUESTAS</h4>
                         <li className='valoresinfo'>ESPACIOS FLEXIBLES Y ADAPTABLES </li>
                         <li className='valoresinfo'>AMPLITUD E INTEGRACION</li>
                         <li className='valoresinfo'>CALIDEZ ESPACIAL</li>
@@ -71,13 +65,10 @@ const Estudio = () => {
                 </div>
             </div>
             </div>
-            <div className='estudio_image__container'>
-                <img className='estudioimag' src={IMAGs} alt="" />
-                <img className='estudioimag' src={IMAGs1} alt="" />
-                <img className='estudioimag' src={IMAGs2} alt="" />
-                <img className='estudioimag' src={IMAGs3} alt="" />
-                <img className='estudioimag' src={IMAGs4} alt="" />
-                <img className='estudioimag' src={IMAGs5} alt="" />
+            <div className='estudiocontainer'> 
+            <div>
+            <EstudioCarrousel />
+            </div>
             </div>
         </div>
 
