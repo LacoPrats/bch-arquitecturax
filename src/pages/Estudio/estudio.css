@@ -163,7 +163,7 @@
     max-width: calc(50% - 1rem); /* Máximo ancho permitido */
   }
   .dedicamosContaner {
-    padding: 2rem;
+    padding: 0rem;
     text-align: center;
   }
   
@@ -184,7 +184,6 @@ text-align:justify;
   }
   
   .dedicamosContaner {
-    padding: 5rem;
     text-align: center;
   }
   .valores__child {
