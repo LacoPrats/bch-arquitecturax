@@ -3,17 +3,22 @@ import './contact.css';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsMessenger } from 'react-icons/bs';
 import { BsWhatsapp } from 'react-icons/bs';
+import CONT from "../../../src/assets/imags/contact/contacto.jpg";
 
 const Contact = () => {
   return (
-    <section id='contact'>
+    <section id='contact' className='contact-section'>
       <div className='home4'>
         <div>
           <h1 className='proyecthero animate__animated animate__zoomIn'>CONTACTO</h1>
         </div>
       </div>
-      <div className='container contact__container'>
-        <div className='contact__options'>
+      <div className='contact-content'>
+        <div className='contact__image'>
+          <img src={CONT} alt='Imagen de contacto' />
+        </div>
+        <div className='container contact__container'>
+          <div className='contact__options'>
           <article className='contact__option'>
             <AiOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
@@ -35,7 +40,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action=''>
+          <form action=''>
           <input type='text' name='name' placeholder='Nombre Completo' required />
           <input type='email' name='email' placeholder='Email' required />
           <input type='text' name='telefono' placeholder='Numero de telefono' required />
@@ -44,11 +49,11 @@ const Contact = () => {
             type='submit'
             className='btn btn-primary'
             href='mailto:ezequielprats74@gmail.com'
-          >
-            Send Message
+          >  Send Message
           </a>
-        </form>
-      </div>
+          </form>
+        </div>
+        </div>
     </section>
   );
 };
