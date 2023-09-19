@@ -32,7 +32,7 @@
 
 .introtext__wrapper {
   display: flex;
-  width: 90%;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -41,6 +41,7 @@
   font-size: 1.5em;
   text-align: center;
   margin: 1rem;
+  line-height: 2rem;
 }
 
 .data__container {
@@ -171,6 +172,7 @@
     font-size: 1.3em;
     line-height: 2rem;
 text-align:justify;
+padding: 2rem;
   }
   
   .introtext__container {
@@ -221,6 +223,7 @@ text-align:justify;
     font-size: 1.3em;
     line-height: 2rem;
 text-align:justify;
+padding: 1rem;
   }
   
   .introtext__container {
@@ -233,12 +236,8 @@ text-align:justify;
     line-height: 2rem;
   }
   
-  .dedicamosContaner {
-    padding: 5rem;
-    text-align: center;
-  }
   .valores__child {
-    min-width: 180%;
+    min-width: 130%;
     text-align: center;
   }
 
@@ -246,6 +245,7 @@ text-align:justify;
     font-size: 0.8rem; /* Cambiar el tamaño de la tipografía en pantallas de formato celular */
     text-align: center;
     justify-content: center;
+ 
   }
 
   .valores__child > ul > li {
@@ -264,7 +264,7 @@ text-align:justify;
     max-width: calc(50% - 1rem); /* Máximo ancho permitido */
   }
   .dedicamosContaner {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
   }
   
@@ -282,14 +282,14 @@ text-align:justify;
   .introtext {
     font-size: 1.3em;
     line-height: 2rem;
+    text-align: justify;
   }
   
   .dedicamosContaner {
-    padding: 5rem;
     text-align: center;
   }
   .valores__child {
-    min-width: 250%;
+    min-width: 130%;
     text-align: center;
   }
 

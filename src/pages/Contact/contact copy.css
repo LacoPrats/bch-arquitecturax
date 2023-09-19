@@ -9,7 +9,7 @@
     inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   padding: 2rem;
-  margin: 2rem;
+  border-radius: 4rem;
 }
 .home4{
   background-image: url("../../../src/assets/imags/estudio/home3.png");
@@ -26,29 +26,9 @@
   color: #d8d7d4;
 
 }
-.contact__wrapper {
-  display: flex;
-  align-items: flex-start; /* Alinear los elementos en la parte superior */
-  margin-top: 2rem;
-  margin: 2rem; /* Añade margen superior para separar de la parte superior */
+.contactimg{
+  width: 300px;
 }
-.contactimg-wrapper {
-  margin-right: 1rem; /* Espacio entre la imagen y el formulario */
-  flex: 0 0 auto; 
-  margin-top: 2rem;
-  /* Evita que la imagen crezca y ocupe más espacio del necesario */
-  margin-left: 2rem;
-}
-
-.contactimg {
-  max-width: 300px; /* La imagen se ajustará al ancho máximo del contenedor */
-  height: 620px; /* La altura se ajustará automáticamente para mantener la proporción */
-}
-
-.container.contact__container {
-  flex: 1; /* El contenedor de contacto ocupa el espacio restante */
-}
-
 .contact__options {
   display: flex;
   flex-direction: column;
@@ -59,7 +39,7 @@
 .contact__options h4,
 h5 {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-top: 10px;
 }
 
@@ -142,33 +122,4 @@ textarea {
     height: 50vh; /* Ajusta la altura según tus preferencias */
   }
 }
-@media screen and (max-width: 1000px) {
-  .contact__wrapper {
-    flex-direction: column; /* Cambia la dirección del flex para apilar elementos */
-    align-items: center; /* Centra los elementos en dispositivos pequeños */
-  }
-
-  .contactimg-wrapper {
-display: none;
-  }
-
-  .container.contact__container {
-    width: 90%; /* Reduce el ancho del contenedor para que quepa en dispositivos pequeños */
-    margin: 1rem auto; /* Centra el contenedor en la pantalla */
-  }
-
-  .contactimg {
-    max-width: 100%; /* La imagen se ajustará al ancho máximo del contenedor */
-    height: 300px; /* Establece la altura deseada para la imagen (ajusta según tus preferencias) */
-  }
-}
-@media screen and (max-width: 600px) {
-  .contactimg-wrapper {
-    display: none;
-  }
-}
-
-
-
-
 
