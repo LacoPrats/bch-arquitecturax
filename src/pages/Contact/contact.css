@@ -31,6 +31,7 @@
   align-items: flex-start; /* Alinear los elementos en la parte superior */
   margin-top: 2rem;
   margin: 2rem; /* Añade margen superior para separar de la parte superior */
+  justify-content: center;
 }
 .contactimg-wrapper {
   margin-right: 1rem; /* Espacio entre la imagen y el formulario */

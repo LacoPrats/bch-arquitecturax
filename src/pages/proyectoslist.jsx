@@ -34,13 +34,37 @@ import AraucariasI11 from '../assets/imags/proyects/araucariasI/ar1.11.jpg'
 
 
 
-import Araucarias2 from '../assets/imags/proyects/araucariasII/araucarias2 (2).jpg'
+
 import Araucarias2P from '../assets/imags/proyects/araucariasII/portadaar2.jpg'
-import AraucariasII2 from '../assets/imags/proyects/araucariasII/araucarias2.1.jpg'
+import AraucariasII1 from '../assets/imags/proyects/araucariasII/ar2.1.jpg'
+import AraucariasII2 from '../assets/imags/proyects/araucariasII/ar2.2.jpg'
+import AraucariasII3 from '../assets/imags/proyects/araucariasII/ar2.3.jpg'
+import AraucariasII4 from '../assets/imags/proyects/araucariasII/ar2.4.jpg'
+import AraucariasII5 from '../assets/imags/proyects/araucariasII/ar2.5.jpg'
+import AraucariasII6 from '../assets/imags/proyects/araucariasII/ar2.6.jpg'
+import AraucariasII7 from '../assets/imags/proyects/araucariasII/ar2.7.jpg'
+import AraucariasII8 from '../assets/imags/proyects/araucariasII/ar2.8.jpg'
+import AraucariasII9 from '../assets/imags/proyects/araucariasII/ar2.9.jpg'
+import AraucariasII10 from '../assets/imags/proyects/araucariasII/ar2.10.jpg'
+import AraucariasII11 from '../assets/imags/proyects/araucariasII/ar2.11.jpg'
+import AraucariasII12 from '../assets/imags/proyects/araucariasII/ar2.12.jpg'
 
 import Araucarias3P from '../assets/imags/proyects/araucariasIII/portadaAR3.jpg'
-import Araucarias3 from '../assets/imags/proyects/araucariasIII/araucarias3.1.jpg'
-import AraucariasIII2 from '../assets/imags/proyects/araucariasIII/araucarias3.2.jpg'
+import Araucarias3 from '../assets/imags/proyects/araucariasIII/ar3.1.jpg'
+import AraucariasIII2 from '../assets/imags/proyects/araucariasIII/ar3.2.jpg'
+import AraucariasIII3 from '../assets/imags/proyects/araucariasIII/ar3.3.jpg'
+import AraucariasIII4 from '../assets/imags/proyects/araucariasIII/ar3.4.jpg'
+import AraucariasIII5 from '../assets/imags/proyects/araucariasIII/ar3.5.jpg'
+import AraucariasIII6 from '../assets/imags/proyects/araucariasIII/ar3.6.jpg'
+import AraucariasIII7 from '../assets/imags/proyects/araucariasIII/ar3.7.jpg'
+import AraucariasIII8 from '../assets/imags/proyects/araucariasIII/ar3.8.jpg'
+import AraucariasIII9 from '../assets/imags/proyects/araucariasIII/ar3.9.jpg'
+import AraucariasIII10 from '../assets/imags/proyects/araucariasIII/ar3.10.jpg'
+import AraucariasIII11 from '../assets/imags/proyects/araucariasIII/ar3.11.jpg'
+import AraucariasIII12 from '../assets/imags/proyects/araucariasIII/ar3.12.jpg'
+import AraucariasIII13 from '../assets/imags/proyects/araucariasIII/ar3.13.jpg'
+
+
 
 import AraucariasVP from '../assets/imags/proyects/araucauriasV/portadaAR5.jpg'
 import AraucariasV from '../assets/imags/proyects/araucauriasV/ar5.1.jpg'
@@ -293,14 +317,14 @@ export const data = [
     id: 7,
     name: "ARAUCARIAS II",
     portada: Araucarias2P,
-    image: [Araucarias2,AraucariasII2,],
+    image: [AraucariasII1,AraucariasII2,AraucariasII3,AraucariasII4,AraucariasII5,AraucariasII6,AraucariasII7,AraucariasII8,AraucariasII9,AraucariasII10,AraucariasII11,AraucariasII12,],
     ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 8,
     name: "ARAUCARIAS III",
     portada: Araucarias3P,
-    image: [Araucarias3,AraucariasIII2],
+    image: [Araucarias3,AraucariasIII2,AraucariasIII3,AraucariasIII4,AraucariasIII5,AraucariasIII6,AraucariasIII7,AraucariasIII8,AraucariasIII9,AraucariasIII10,AraucariasIII11,AraucariasIII12,AraucariasIII13],
     ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
   },
   {
