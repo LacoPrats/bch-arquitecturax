@@ -246,9 +246,22 @@ import TipasII1 from '../assets/imags/proyects/tipasII/1 (5).jpg'
 import TipasII2 from '../assets/imags/proyects/tipasII/2 (9).jpg'
 
 import Villamarina from  '../assets/imags/proyects/villamarina/portadVM.jpg'
-import Villamarina2 from  '../assets/imags/proyects/villamarina/villamarina.2.jpg'
-import Villamarina3 from  '../assets/imags/proyects/villamarina/villamarina.3.jpg'
-import Villamarina4 from  '../assets/imags/proyects/villamarina/villamarina.4.jpg'
+import Villamarina1 from  '../assets/imags/proyects/villamarina/vm1.jpg'
+import Villamarina2 from  '../assets/imags/proyects/villamarina/vm2.jpg'
+import Villamarina3 from  '../assets/imags/proyects/villamarina/vm3.jpg'
+import Villamarina4 from  '../assets/imags/proyects/villamarina/vm4.jpg'
+import Villamarina5 from  '../assets/imags/proyects/villamarina/vm5.jpg'
+import Villamarina6 from  '../assets/imags/proyects/villamarina/vm6.jpg'
+import Villamarina7 from  '../assets/imags/proyects/villamarina/vm7.jpg'
+import Villamarina8 from  '../assets/imags/proyects/villamarina/vm8.jpg'
+import Villamarina9 from  '../assets/imags/proyects/villamarina/vm9.jpg'
+import Villamarina10 from  '../assets/imags/proyects/villamarina/vm10.jpg'
+import Villamarina11 from  '../assets/imags/proyects/villamarina/vm11.jpg'
+import Villamarina12 from  '../assets/imags/proyects/villamarina/vm12.jpg'
+import Villamarina13 from  '../assets/imags/proyects/villamarina/vm13.jpg'
+
+
+
 
 import VillamarinaIIP from  '../assets/imags/proyects/villamarinaII/portadaVM2.jpg'
 import VillamarinaII from  '../assets/imags/proyects/villamarinaII//vm2.1.jpg'
@@ -289,7 +302,7 @@ export const data = [
     name: "RIBERAS",
     portada: Riberas,
     image: [Riberas1,Riberas2,Riberas3],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 4,
@@ -303,14 +316,14 @@ export const data = [
     name: "VISTAS II",
     portada: VistasIIP,
     image: [VistasII1,VistasII2,VistasII3,],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id:6,
     name: "ARAUCARIAS",
     portada: AraucariasP,
-    image: [Araucarias,AraucariasI2,AraucariasI3,AraucariasI4.AraucariasI5,AraucariasI6,AraucariasI7,AraucariasI8,AraucariasI9,AraucariasI10,AraucariasI11],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    image: [Araucarias,AraucariasI2,AraucariasI3,AraucariasI4,AraucariasI5,AraucariasI6,AraucariasI7,AraucariasI8,AraucariasI9,AraucariasI10,AraucariasI11],
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
 
   {
@@ -318,27 +331,27 @@ export const data = [
     name: "ARAUCARIAS II",
     portada: Araucarias2P,
     image: [AraucariasII1,AraucariasII2,AraucariasII3,AraucariasII4,AraucariasII5,AraucariasII6,AraucariasII7,AraucariasII8,AraucariasII9,AraucariasII10,AraucariasII11,AraucariasII12,],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 8,
     name: "ARAUCARIAS III",
     portada: Araucarias3P,
     image: [Araucarias3,AraucariasIII2,AraucariasIII3,AraucariasIII4,AraucariasIII5,AraucariasIII6,AraucariasIII7,AraucariasIII8,AraucariasIII9,AraucariasIII10,AraucariasIII11,AraucariasIII12,AraucariasIII13],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id:9,
     name: "ARAUCARIAS IV",
     portada:  Araucarias4P,
     image: [Araucarias4,AraucariasIV2],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 10,
     name: "VILA MARINA",
     portada: Villamarina,
-    image: [Villamarina2, Villamarina3,Villamarina4],
+    image: [Villamarina1, Villamarina2,Villamarina3,Villamarina4,Villamarina5,Villamarina6,Villamarina7,Villamarina8,Villamarina9,Villamarina10,Villamarina11,Villamarina12,Villamarina13,],
     ubicación:"VILLANUEVA - TIGRE, BS. AS.",
   },
   {
@@ -346,7 +359,7 @@ export const data = [
     name: "CASA FOA 2023",
     portada: CasaFoaP,
     image: [CasaFoa1, CasaFoa2,CasaFoa3,CasaFoa4],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 12,
@@ -367,21 +380,21 @@ export const data = [
     name: "ACACIAS",
     portada:Acaciaspor,
     image: [Acacias, Acacias2,Acacias3,Acacias4,],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 15,
     name: "RIBERAS II",
     portada: RiberasIIP,
     image: [RiberasII,RiberasII2,RiberasII3,RiberasII4,RiberasII5,RiberasII6,RiberasII7,RiberasII8,RiberasII9,RiberasII10,RiberasII11,RiberasII12],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 16,
     name: "ARAUCARIAS V",
   portada: AraucariasVP,
     image: [AraucariasV,AraucariasV2,AraucariasV4,AraucariasV5,AraucariasV6,AraucariasV7,AraucariasV8,AraucariasV9,AraucariasV10,AraucariasV11],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 17,
@@ -444,7 +457,7 @@ export const data = [
     name: "COSTAS",
     portada: Costasport,
     image: [Costas,Costas2,Costas3,],
-    ubicación:"BS. AS. PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 26,
