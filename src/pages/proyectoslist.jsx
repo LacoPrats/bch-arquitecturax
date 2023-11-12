@@ -4,10 +4,7 @@ import Acacias3 from '../assets/imags/proyects/acacias/acacias.3.jpg'
 import Acacias4 from '../assets/imags/proyects/acacias/acacias.4.jpg'
 import Acaciaspor from '../assets/imags/proyects/acacias/portacacias.jpg'
 
-import Alemania from '../assets/imags/proyects/alemania/alemania1.jpg'
-import Alemania2 from '../assets/imags/proyects/alemania/alemania1.2.jpg'
-import Alemania3 from '../assets/imags/proyects/alemania/alemania1.3.jpg'
-import Alemania4 from '../assets/imags/proyects/alemania/alemania1.4.jpg'
+
 
 import AlissosP from '../assets/imags/proyects/alissos/portadaALISOS.jpg'
 import Alissos from '../assets/imags/proyects/alissos/alisos.jpg'
@@ -145,8 +142,7 @@ import SaucesVP from '../assets/imags/proyects/saucesV/portadaSAUCES5.jpg'
 import SaucesV from '../assets/imags/proyects/saucesV/sauces5.1.jpg'
 import SaucesV2 from '../assets/imags/proyects/saucesV/sauces5.2.jpg'
 
-import Lomas from '../assets/imags/proyects/lomas/lomas1.jpg'
-import Lomas2 from '../assets/imags/proyects/lomas/lomas1.2.jpg'
+
 
 import YahtP from '../assets/imags/proyects/yaht/portadaYACHT.jpg'
 import Yaht from '../assets/imags/proyects/yaht/Yaht1.jpg'
@@ -196,10 +192,6 @@ import Lagos3 from '../assets/imags/proyects/lagos/lagos3.jpg'
 import Lagos4 from '../assets/imags/proyects/lagos/lagos4.jpg'
 import Lagos5 from '../assets/imags/proyects/lagos/lagos5.jpg'
 
-import SaucesII from '../assets/imags/proyects/saucesII/sauces2.1.jpg'
-import SaucesII2 from '../assets/imags/proyects/saucesII/sauces2.2.jpg'
-import SaucesII3 from '../assets/imags/proyects/saucesII/sauces2.3.jpg'
-import SaucesII4 from '../assets/imags/proyects/saucesII/sauces2.4.jpg'
 
 
 import SaucesIIIP from '../assets/imags/proyects/saucesIII/portada SAU 27 (1).jpg'

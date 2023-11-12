@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
-import EC from '../../assets/imags/estudio/estudiocarrousel1.png'
-import EC2 from '../../assets/imags/estudio/estudiocarrousel2.png'
+import EC from '../../assets/imags/estudio/estudiocarrousel1.jpg'
+import EC2 from '../../assets/imags/estudio/estudiocarrousel2.jpg'
 import '../Estudio/EstudioCarrousel/estudiocarrousel.css'
 
 function EstudioCarrousel() {

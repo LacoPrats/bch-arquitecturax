@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
-import MiniHome1 from '../../assets/imags/home/carrousel1.png'
+import MiniHome1 from '../../assets/imags/home/carrousel1.jpg'
 import MiniHome2 from '../../assets/imags/home/carrousel2.png'
 import './minicarrousel.css'
 function MiniCarrousel() {

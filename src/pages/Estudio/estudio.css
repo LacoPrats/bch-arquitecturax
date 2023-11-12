@@ -1,7 +1,7 @@
 .home2 {
-  background-image: url("../../../src/assets/imags/estudio/estudio.png");
+  background-image: url("../../../src/assets/imags/estudio/estudio\ \(2\).jpg");
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,23 +309,6 @@ text-align:justify;
     text-align: center;
   }
 }
-@media only screen and (min-width: 1000px) {
-
-  .home2 {
-    background-image: url("../../../src/assets/imags/estudio/estudio.png");
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 80%;
-    text-align: center;
-  }
-
 
   @media only screen and (min-width: 840px) {
     .introtext {
@@ -339,10 +322,12 @@ text-align:justify;
       text-align: center;
       text-align: justify;
     }
+
+    
   }
-}
+
 @media (max-width: 768px) {
   .home2 {
-    height: 50vh; /* Ajusta la altura según tus preferencias */
+    height: 40vh; /* Ajusta la altura según tus preferencias */
   }
 }

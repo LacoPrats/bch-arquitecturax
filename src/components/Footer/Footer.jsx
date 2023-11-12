@@ -31,7 +31,9 @@ function Footer() {
           <p>@bcharquitectura</p>
         </div>
         <div className="info">
+          <a href="https://maps.app.goo.gl/egM75VNAGtzhsKjY9">
          <GoLocation/>
+          </a>
           <p>Bahia Grande-Nordelta-Tigre,Bs.As.</p>
         </div>
         </div>
