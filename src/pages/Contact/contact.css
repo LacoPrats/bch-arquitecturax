@@ -108,18 +108,18 @@
 
 .contact__option a {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: white;
 }
 .contact__option h4 {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: white;
   margin: 0; /* Elimina el margen para que esté más cerca del ícono */
 }
 
 .contact__option h5 {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   color: white;
   margin: 0; /* Elimina el margen para que esté pegado al h4 */
 }

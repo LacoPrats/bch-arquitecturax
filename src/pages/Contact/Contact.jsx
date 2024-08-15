@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
             </article>
               </a>
-              <a href='mailto:info@bcharquitectura.com.ar'>
+              <a href='https://wa.me/5491169058458'>
             <article className='contact__option'>
               <div className="contact__option-content">
                 <div className="contact__text">

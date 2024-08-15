@@ -40,8 +40,9 @@
 .introtext {
   font-size: 1.5em;
   text-align: center;
-  margin: 1rem;
+  margin: 2rem;
   line-height: 2rem;
+
 }
 
 .data__container {
@@ -55,6 +56,7 @@
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   flex-wrap: wrap;
   row-gap: 1rem;
+  margin-top: 1rem;
 }
 
 .infocontainer {
@@ -118,13 +120,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 2rem;
   color: aliceblue;
   box-shadow:
     inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-  max-width: 500px; /* Ajustar el ancho del contenedor */
+  max-width: 400px; /* Ajustar el ancho del contenedor */
   margin: 0 auto; /* Centrar el contenedor horizontalmente */
 }
 
@@ -133,31 +135,38 @@
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   text-align: left;
-}
 
+}
 .valores__child > ul {
-  list-style: none;
+  list-style: circle;
   padding: 0;
   margin: 0;
+  margin-left: 1.5rem; /* Mueve los bullets hacia la derecha */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.valores__child > li {
+.valores__child > ul > li {
   font-size: 1rem;
-  margin: 0.25rem 0;
+  margin: 0.5rem 0; /* Más espacio entre los <li> */
 }
 
-.valoresh4 {
+.valores__child h4 {
   margin-top: 1rem;
+  margin-bottom: 1rem; /* Espacio entre el h4 y los li */
 }
 .estudiocontainer{
   background-color: #96a077;
   margin: 1rem;
   padding: 1rem;
 }
-
+.dedicamosContaner {
+ margin: 2rem;
+}
+.dedicamosContaner>h2 {
+margin: 2rem;
+}
 @media (max-width: 788px) {
   .estudioimag {
     flex-basis: calc(50% - 1rem); /* Tamaño base para 2 imágenes por fila */

@@ -1,18 +1,24 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import styles from "./navbarDesktop.module.css"
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import styles from "./navbarDesktop.module.css";
 
-const NavBarDesktop = ({routes}) => {
-  console.log(routes);
+const NavBarDesktop = ({ routes }) => {
   return (
-    <div>
-         <nav className={styles.navbarD}> 
-{routes.map((objectroute,index)=>{
-  return <div key={index} className={styles.navroutes}><NavLink to={objectroute.route}>{objectroute.name}</NavLink></div>
-})}
-        </nav>
-    </div>
-  )
+    <nav className={styles.navbarD}>
+      {routes.map((objectroute, index) => (
+        <div key={index} className={styles.navroutes}>
+          <NavLink 
+            to={objectroute.route} 
+            className={({ isActive }) => 
+              isActive ? `${styles.navroutes} ${styles.active}` : styles.navroutes
+            }
+          >
+            {objectroute.name}
+          </NavLink>
+        </div>
+      ))}
+    </nav>
+  );
 }
 
-export default NavBarDesktop
+export default NavBarDesktop;

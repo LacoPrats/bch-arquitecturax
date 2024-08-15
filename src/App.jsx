@@ -5,9 +5,12 @@ import Home from "./pages/Home/Home";
 import Project from "./pages/Proyecto/Project";
 import Estudio from "./pages/Estudio/Estudio";
 import Contact from "./pages/Contact/Contact";
+import Prensa from "./pages/Prensa/Prensa";
+import Prensadetail from "./components/PrensaDetail/Pdetail";
 import Itemdetail from "./components/ItemDetail/Itemdetail";
 import Navbartry from "./components/NavBar/Navbartry";
 import MainLayout from "./layout/MainLayout";
+
 
 function App() {
   return (
@@ -17,8 +20,10 @@ function App() {
           <Route path='/' exact element={<MainLayout><Home /></MainLayout> } />
           <Route path='/estudio' exact element={<MainLayout><Estudio /></MainLayout>} />
           <Route path='/proyectos' exact element={<MainLayout><Project /></MainLayout>} />
+          <Route path='/prensa' exact element={<MainLayout><Prensa /></MainLayout>} />
           <Route path='/Contact' exact element={<MainLayout><Contact /></MainLayout>} />
           <Route path='/detail/:id' exact element={<MainLayout><Itemdetail /></MainLayout>} />
+          <Route path='/pdetail/:id' exact element={<MainLayout><Prensadetail /></MainLayout>} />
           <Route path='/prueba' exact element={<Navbartry />} />
         </Routes>
       </BrowserRouter>
@@ -26,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

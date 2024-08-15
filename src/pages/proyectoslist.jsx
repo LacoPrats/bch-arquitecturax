@@ -165,9 +165,19 @@ import VistasIP from '../assets/imags/proyects/vistas/portada VIST 227.jpg'
 
 
 import VistasIIP from '../assets/imags/proyects/vistasII/vistas2portada.jpg'
-import VistasII1 from '../assets/imags/proyects/vistasII/vistas2.1.jpg'
-import VistasII2 from '../assets/imags/proyects/vistasII/vistas2.2.jpg'
-import VistasII3 from '../assets/imags/proyects/vistasII/vistas2.3.jpg'
+import VistasII1 from '../assets/imags/proyects/vistasII/VistasII1.jpg'
+import VistasII2 from '../assets/imags/proyects/vistasII/VistasII2.jpg'
+import VistasII3 from '../assets/imags/proyects/vistasII/VistasII3.jpg'
+import VistasII4 from '../assets/imags/proyects/vistasII/VistasII4.jpg'
+import VistasII5 from '../assets/imags/proyects/vistasII/VistasII5.jpg'
+import VistasII6 from '../assets/imags/proyects/vistasII/VistasII6.jpg'
+import VistasII7 from '../assets/imags/proyects/vistasII/VistasII7.jpg'
+import VistasII8 from '../assets/imags/proyects/vistasII/VistasII8.jpg'
+import VistasII9 from '../assets/imags/proyects/vistasII/VistasII9.jpg'
+import VistasII10 from '../assets/imags/proyects/vistasII/VistasII10.jpg'
+import VistasII11 from '../assets/imags/proyects/vistasII/VistasII11.jpg'
+import VistasII12 from '../assets/imags/proyects/vistasII/VistasII12.jpg'
+import VistasII13 from '../assets/imags/proyects/vistasII/VistasII13.jpg'
 
 
 import RiberasII from '../assets/imags/proyects/riberasII/rib2.1.jpg'
@@ -208,11 +218,19 @@ import TipasIIIP from '../assets/imags/proyects/tipasIII/TipasIIIP.jpg'
 import TipasIII1 from '../assets/imags/proyects/tipasIII/TipasIII.jpg'
 
 
-import CasaFoaP from '../assets/imags/proyects/casafoa/portada FOA.jpg'
-import CasaFoa1 from '../assets/imags/proyects/casafoa/1 FOA.jpg'
-import CasaFoa2 from '../assets/imags/proyects/casafoa/2 FOA.jpg'
-import CasaFoa3 from '../assets/imags/proyects/casafoa/3 FOA.jpg'
-import CasaFoa4 from '../assets/imags/proyects/casafoa/4 FOA.jpg'
+import CasaFoaP from '../assets/imags/proyects/casafoa/casafoap.jpg'
+import CasaFoa1 from '../assets/imags/proyects/casafoa/casafoa1.jpg'
+import CasaFoa2 from '../assets/imags/proyects/casafoa/casafoa2.jpg'
+import CasaFoa3 from '../assets/imags/proyects/casafoa/casafoa3.jpg'
+import CasaFoa4 from '../assets/imags/proyects/casafoa/casafoa4.jpg'
+import CasaFoa5 from '../assets/imags/proyects/casafoa/casafoa5.jpg'
+import CasaFoa6 from '../assets/imags/proyects/casafoa/casafoa6.jpg'
+import CasaFoa7 from '../assets/imags/proyects/casafoa/casafoa7.jpg'
+import CasaFoa8 from '../assets/imags/proyects/casafoa/casafoa8.jpg'
+import CasaFoa9 from '../assets/imags/proyects/casafoa/casafoa9.jpg'
+import CasaFoa10 from '../assets/imags/proyects/casafoa/casafoa10.jpg'
+import CasaFoa11 from '../assets/imags/proyects/casafoa/casafoa11.jpg'
+import CasaFoa12 from '../assets/imags/proyects/casafoa/casafoa12.jpg'
 
 import SaucesIVP from '../assets/imags/proyects/saucesIV/portadaSAU4.jpg'
 import SaucesIV from '../assets/imags/proyects/saucesIV/sauces4.1.jpg'
@@ -273,6 +291,18 @@ import Glorietas from  '../assets/imags/proyects/glorietas/portglorietas.jpg'
 import Glorietas1 from  '../assets/imags/proyects/glorietas//gloritetas1.jpg'
 import Glorietas2 from  '../assets/imags/proyects/glorietas//glorietas2.jpg'
 import Glorietas3 from  '../assets/imags/proyects/glorietas//glorietas3.jpg'
+import Glorietas4 from  '../assets/imags/proyects/glorietas//glorietas4.jpg'
+import Glorietas5 from  '../assets/imags/proyects/glorietas//glorietas5.jpg'
+
+import TipasIVP from '../assets/imags/proyects/tipasiv/tipas4p.jpg'
+import TipasIV1 from '../assets/imags/proyects/tipasiv/tipas4.1.jpg'
+import TipasIV2 from '../assets/imags/proyects/tipasiv/tipas4.2.jpg'
+import TipasIV3 from '../assets/imags/proyects/tipasiv/tipas4.3.jpg'
+import TipasIV4 from '../assets/imags/proyects/tipasiv/tipas4.4.jpg'
+
+import RiberasIIIP from '../assets/imags/proyects/riberasIII/RiberasIIIP.jpg'
+import RiberasIII1 from '../assets/imags/proyects/riberasIII/RiberasIII1.jpg'
+import RiberasIII2 from '../assets/imags/proyects/riberasIII/RiberasIII2.jpg'
 
 export const data = [
   {
@@ -281,6 +311,13 @@ export const data = [
     portada:YahtP,
     image:[Yaht,Yaht2,Yaht3],
     ubicación:"NORDELTA - TIGRE, BS. AS",
+  },
+  {
+    id: 26,
+    name: "NUNEZ",
+    portada: NunesP,
+    image:[Nunes,Nunes2,Nunes3, Nunes4, Nunes5],
+    ubicación:"NUÑEZ – CABA , BS. AS.",
   },
   {
     id: 2,
@@ -307,7 +344,7 @@ export const data = [
     id:5,
     name: "VISTAS II",
     portada: VistasIIP,
-    image: [VistasII1,VistasII2,VistasII3,],
+    image: [VistasII1,VistasII2,VistasII3,VistasII4,VistasII5,VistasII6,VistasII7,VistasII8,VistasII9,VistasII10,VistasII11,VistasII12],
     ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
@@ -350,7 +387,7 @@ export const data = [
     id: 11,
     name: "CASA FOA 2023",
     portada: CasaFoaP,
-    image: [CasaFoa1, CasaFoa2,CasaFoa3,CasaFoa4],
+    image: [CasaFoa1, CasaFoa2,CasaFoa3,CasaFoa4,CasaFoa5,CasaFoa6,CasaFoa7,CasaFoa8,CasaFoa9,CasaFoa10,CasaFoa11,CasaFoa12],
     ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
@@ -452,13 +489,6 @@ export const data = [
     ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
-    id: 26,
-    name: "NUNEZ",
-    portada: NunesP,
-    image:[Nunes,Nunes2,Nunes3, Nunes4, Nunes5],
-    ubicación:"NUÑEZ – CABA , BS. AS.",
-  },
-  {
     id: 27,
     name: "ALISOS",
     portada: AlissosP,
@@ -470,7 +500,7 @@ export const data = [
     name: "MARINAS",
     portada: BMarinas,
     image: [BMarinas2,BMarinas3],
-    ubicación:"VILA MARINA, VILLANUEVA - TIGRE, BS. AS.",
+    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
   {
     id: 29,
@@ -483,7 +513,7 @@ export const data = [
     id: 30,
     name: "GLORIETAS",
     portada: GlorietasP,
-    image: [Glorietas1, Glorietas2, Glorietas3],
+    image: [Glorietas1, Glorietas2, Glorietas3,Glorietas4,Glorietas5],
     ubicación:"NORDELTA - TIGRE, BS. AS.",
   },
   {
@@ -492,5 +522,19 @@ export const data = [
     portada: BelgranoP,
     image: [Belgrano,Belgrano2,Belgrano3,],
       ubicación:"BELGRANO – CABA , BS. AS.",
+  },
+  {
+    id: 32,
+    name: "TIPAS IV",
+    portada: TipasIVP,
+    image: [TipasIV1,TipasIV2,TipasIV3,TipasIV4],
+      ubicación:"NORDELTA - TIGRE, BS. AS",
+  },
+  {
+    id: 33,
+    name: "RIBERAS III",
+    portada: RiberasIIIP,
+    image: [RiberasIII1,RiberasIII2],
+      ubicación:"PUERTOS - ESCOBAR, BS. AS.",
   },
 ];
