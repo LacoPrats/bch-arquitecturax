@@ -31,7 +31,6 @@ function Prensa() {
               <div className="portfolio item__image">
                 <img className="Proyectimag" src={portada} alt={name} />
                 <div className="proyecytext">
-                  <p className="ProyectName">{name}</p>
                 </div>
               </div>
             </div>
