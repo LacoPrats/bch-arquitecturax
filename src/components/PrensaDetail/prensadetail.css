@@ -1,11 +1,12 @@
-.ItemDetail {
+.pItemDetail {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
+  margin-top: 2rem;
 }
 
-.detailinfo {
+.pdetailinfo {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
@@ -13,7 +14,7 @@
   color: black;
 }
 
-.detailinfo h2 {
+.pdetailinfo h2 {
   font-size: 35px;
   margin-bottom: 10px;
 }
@@ -24,12 +25,12 @@
 }
 
 @media (max-width: 760px) {
-  .ItemDetail {
+  .pItemDetail {
     flex-direction: column;
     padding: 0px;
   }
 
-  .detailinfo {
+  .pdetailinfo {
     padding: 10px;
   }
   .detailinfo h2 {
@@ -37,45 +38,45 @@
     margin-bottom: 10px;
   }
   
-  .detailinfo p {
+  .pdetailinfo p {
     font-size: 2rem;
     margin-bottom: 0px;
   }
 }
 @media (max-width: 520px) {
-  .ItemDetail {
+  .pItemDetail {
     flex-direction: column;
     padding: 0px;
   }
 
-  .detailinfo {
+  .pdetailinfo {
     padding: 10px;
   }
-  .detailinfo h2 {
+  .pdetailinfo h2 {
     font-size: 20px;
     margin-bottom: 10px;
   }
   
-  .detailinfo p {
+  .pdetailinfo p {
     font-size: 10px;
     margin-bottom: 0px;
   }
 }
 @media (max-width: 700px) {
-  .ItemDetail {
+  .pItemDetail {
     flex-direction: column;
     padding: 0px;
   }
 
-  .detailinfo {
+  .pdetailinfo {
     padding: 10px;
   }
-  .detailinfo h2 {
+  .pdetailinfo h2 {
     font-size: 15px;
     margin-bottom: 10px;
   }
   
-  .detailinfo p {
+  .pdetailinfo p {
     font-size: 10px;
     margin-bottom: 0px;
   }

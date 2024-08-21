@@ -1,19 +1,19 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import styles from './prensacarrousel.css';
 
-import "./prensadetail.css";
 
 function PrensaCarousel({ images }) {
   return (
-    <div className="carousel-container">
-      <Carousel fade className="itemCarouselTotal">
+    <div className={styles.pcarouselContainer}>
+      <Carousel fade className={styles.PrensaCarrous}>
         {images.map((imgSrc, index) => (
           <Carousel.Item key={index}>
-            <div className="image-container">
+            <div className={styles.pimageContainer}>
               <img
                 src={imgSrc}
                 alt={`Slide ${index + 1}`}
-                className="itemCarouselImage"
+                className={styles.ptemCarouselImage}
               />
             </div>
           </Carousel.Item>
@@ -24,6 +24,3 @@ function PrensaCarousel({ images }) {
 }
 
 export default PrensaCarousel;
-
-
-
