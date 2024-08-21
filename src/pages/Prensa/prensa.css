@@ -176,6 +176,6 @@
     width: 100%;
     height: auto;
     border: none;
-    max-height: 50vh; /* Asegura que el contenido no sobrepase la pantalla */
+    max-height: 100vh; /* Asegura que el contenido no sobrepase la pantalla */
   }
 }
