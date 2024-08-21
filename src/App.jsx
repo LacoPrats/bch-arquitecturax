@@ -6,7 +6,6 @@ import Project from "./pages/Proyecto/Project";
 import Estudio from "./pages/Estudio/Estudio";
 import Contact from "./pages/Contact/Contact";
 import Prensa from "./pages/Prensa/Prensa";
-import Prensadetail from "./components/PrensaDetail/Pdetail";
 import Itemdetail from "./components/ItemDetail/Itemdetail";
 import Navbartry from "./components/NavBar/Navbartry";
 import MainLayout from "./layout/MainLayout";
@@ -23,7 +22,6 @@ function App() {
           <Route path='/prensa' exact element={<MainLayout><Prensa /></MainLayout>} />
           <Route path='/Contact' exact element={<MainLayout><Contact /></MainLayout>} />
           <Route path='/detail/:id' exact element={<MainLayout><Itemdetail /></MainLayout>} />
-          <Route path='/pdetail/:id' exact element={<MainLayout><Prensadetail /></MainLayout>} />
           <Route path='/prueba' exact element={<Navbartry />} />
         </Routes>
       </BrowserRouter>
