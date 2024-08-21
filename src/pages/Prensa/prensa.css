@@ -151,7 +151,7 @@
 }
 @media (max-width: 520px) {
   .modal-dialog {
-    max-width: 100%;
+    max-width: 80vw;
     margin: auto;
   }
 
@@ -176,6 +176,6 @@
     width: 100%;
     height: auto;
     border: none;
-    max-height: 100vh; /* Asegura que el contenido no sobrepase la pantalla */
+    max-height: 50vh; /* Asegura que el contenido no sobrepase la pantalla */
   }
 }
