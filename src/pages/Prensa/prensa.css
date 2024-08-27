@@ -151,14 +151,14 @@
 }
 @media (max-width: 520px) {
   .modal-dialog {
-    max-width: 80vw; /* Reduce el ancho máximo del modal para que el PDF se vea más pequeño */
+    max-width: 80vw; /* Reduce el ancho máximo del modal */
     margin: auto;
   }
 
   .modal-content {
     width: 100%;
     height: auto;
-    max-height: 70vh; /* Reduce la altura máxima para que el PDF se vea más pequeño */
+    max-height: 70vh; /* Reduce la altura máxima del modal */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,6 +170,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
   }
 
   .modal-body iframe {
@@ -177,5 +178,7 @@
     height: auto;
     border: none;
     max-height: 70vh; /* Ajusta la altura máxima del iframe */
+    transform: scale(0.8); /* Escala el contenido dentro del iframe para hacerlo más pequeño */
+    transform-origin: top left; /* Mantiene el contenido anclado en la esquina superior izquierda */
   }
 }
