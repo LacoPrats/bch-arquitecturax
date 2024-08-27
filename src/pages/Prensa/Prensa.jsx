@@ -19,7 +19,7 @@ function Prensa() {
 
   return (
     <div className="pprojecttodo">
-      <div className='home3'>
+      <div className='home4'>
         <div>
           <h1 className='proyecthero animate__animated animate__zoomIn'>PRENSA</h1>
         </div>

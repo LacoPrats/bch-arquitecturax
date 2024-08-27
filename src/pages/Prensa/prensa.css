@@ -1,5 +1,5 @@
-.home3 {
-  background-image: url("../../../src/assets/imags/estudio/proyectos.jpg");
+.home4 {
+  background-image: url("../../../src/assets/imags/estudio/home4.png");
   width: 100%;
   height: 80vh;
   display: flex;
@@ -156,7 +156,7 @@
   }
 
   .modal-content {
-    width: 80%;
+    width: 100%;
     height: auto;
     max-height: 100vh; /* Asegura que no sobrepase la altura de la pantalla */
     display: flex;

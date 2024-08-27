@@ -287,9 +287,7 @@ import VillamarinaII10 from  '../assets/imags/proyects/villamarinaII/vm2.10.jpg'
 import VillamarinaII11 from  '../assets/imags/proyects/villamarinaII/vm2.11.jpg'
 
 import GlorietasP from  '../assets/imags/proyects/glorietas/portglorietas.jpg'
-import Glorietas from  '../assets/imags/proyects/glorietas/portglorietas.jpg'
 import Glorietas1 from  '../assets/imags/proyects/glorietas//gloritetas1.jpg'
-import Glorietas2 from  '../assets/imags/proyects/glorietas//glorietas2.jpg'
 import Glorietas3 from  '../assets/imags/proyects/glorietas//glorietas3.jpg'
 import Glorietas4 from  '../assets/imags/proyects/glorietas//glorietas4.jpg'
 import Glorietas5 from  '../assets/imags/proyects/glorietas//glorietas5.jpg'
@@ -314,7 +312,7 @@ export const data = [
   },
   {
     id: 26,
-    name: "NUNEZ",
+    name: "NUÑEZ",
     portada: NunesP,
     image:[Nunes,Nunes2,Nunes3, Nunes4, Nunes5],
     ubicación:"NUÑEZ – CABA , BS. AS.",
@@ -388,7 +386,7 @@ export const data = [
     name: "CASA FOA 2023",
     portada: CasaFoaP,
     image: [CasaFoa1, CasaFoa2,CasaFoa3,CasaFoa4,CasaFoa5,CasaFoa6,CasaFoa7,CasaFoa8,CasaFoa9,CasaFoa10,CasaFoa11,CasaFoa12],
-    ubicación:"PUERTOS - ESCOBAR, BS. AS.",
+    ubicación:"Edicion N39-Parque de Innovación.",
   },
   {
     id: 12,
@@ -513,7 +511,7 @@ export const data = [
     id: 30,
     name: "GLORIETAS",
     portada: GlorietasP,
-    image: [Glorietas1, Glorietas2, Glorietas3,Glorietas4,Glorietas5],
+    image: [Glorietas1, Glorietas3,Glorietas4,Glorietas5],
     ubicación:"NORDELTA - TIGRE, BS. AS.",
   },
   {
