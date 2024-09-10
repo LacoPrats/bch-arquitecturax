@@ -6,6 +6,9 @@ import Gallaretas1 from '../../assets/imags/prensa/gallaretas/revistagallareta.p
 import FachadasP from'../../assets/imags/prensa/fachada/fachada.png'
 import Fachadas1 from'../../assets/imags/prensa/fachada/revistafachada.pdf'
 
+import FoaP from'../../assets/imags/prensa/foa/foap.png'
+import Foa from'../../assets/imags/prensa/foa/casafoapdf.pdf'
+
 export const data = [
   {
     id: "revista1",
@@ -19,6 +22,13 @@ export const data = [
     name: "Revista Fachada",
     portada: FachadasP,
     pdf:[Fachadas1],
+    ubicación:"NUÑEZ – CABA , BS. AS.",
+  },
+  {
+    id: "revista3",
+    name: "Casa Foa",
+    portada: FoaP,
+    pdf:[Foa],
     ubicación:"NUÑEZ – CABA , BS. AS.",
   },
   
