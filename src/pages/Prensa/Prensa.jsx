@@ -7,11 +7,13 @@ function Prensa() {
   const [showModal, setShowModal] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState(null);
 
+  // Función para abrir el modal con el PDF seleccionado
   const handleOpenModal = (pdf) => {
     setSelectedPdf(pdf);
     setShowModal(true);
   };
 
+  // Función para cerrar el modal
   const handleCloseModal = () => {
     setShowModal(false);
     setSelectedPdf(null);
@@ -30,8 +32,7 @@ function Prensa() {
             <div onClick={() => handleOpenModal(pdf)}>
               <div className="portfolio item__image">
                 <img className="Proyectimag" src={portada} alt={name} />
-                <div className="proyecytext">
-                </div>
+                <div className="proyecytext"></div>
               </div>
             </div>
           </article>
