@@ -11,7 +11,6 @@ export default [
         name: "Proyectos",
         route: "/proyectos"
     },
-  
     {
         name: "Prensa",
         route: "/prensa"

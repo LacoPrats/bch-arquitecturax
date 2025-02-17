@@ -1,0 +1,1 @@
+RewriteEngine On # Skip rewriting if the request is for a real file or directory RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d # Rewrite everything else to index.html RewriteRule ^ index.html [L]

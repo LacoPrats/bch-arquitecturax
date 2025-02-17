@@ -44,12 +44,7 @@ function Prensa() {
           {selectedPdf && (
             <iframe
               src={`${selectedPdf}#toolbar=0`}
-              style={{
-                width: "100%",
-                height: "100vh",
-                border: "none",
-                display: "block",
-              }}
+              style={{ width: "100%", height: "100vh", border: "none" }}
               title="PDF Viewer"
             />
           )}
